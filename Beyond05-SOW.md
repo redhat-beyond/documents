@@ -80,7 +80,7 @@ Technical requirements
 2. You should have a CI job (Github Workflows) in GitHub that runs your tests
 3. In  your presentation you should:
 
-1. Present all design aspects of the features you're working on including [ERDs](https://www.google.com/url?q=https://www.lucidchart.com/pages/how-to-draw-ERD&sa=D&source=editors&ust=1613042662184000&usg=AOvVaw0j-0VALcaXInv5f6hp6fjM) and [DFDs](https://www.google.com/url?q=https://www.lucidchart.com/pages/data-flow-diagram&sa=D&source=editors&ust=1613042662185000&usg=AOvVaw0G9xWP6GD0ypOOeOonddFL) (data design and flow documents).
+1. Present all design aspects of the features you're working on including [ERDs](https://www.lucidchart.com/pages/how-to-draw-ERD) and [DFDs](https://www.lucidchart.com/pages/data-flow-diagram) (data design and flow documents).
 2. Show  your data model via the Django admin UI
 3. Present your data manipulation functions  via the Django shell
 4. Show your test code and explain what you've tested
@@ -227,7 +227,7 @@ Execution process quality - in this section we will measure the github activity 
 * Commit quality  - a PR should have 1-5 commits where each one:
 
 1. Contains a mostly self-contained code change
-2. Has a good commit message that meets the [commit message guidelines](https://www.google.com/url?q=https://chris.beams.io/posts/git-commit/&sa=D&source=editors&ust=1613042662251000&usg=AOvVaw0laf1dF81wvSlNu_BVAAq0) and explains the change the commit introduces.
+2. Has a good commit message that meets the [commit message guidelines](https://chris.beams.io/posts/git-commit) and explains the change the commit introduces.
 3. Helps towards understanding the PR as a whole
 
 * Overall Size
@@ -239,7 +239,7 @@ Execution process quality - in this section we will measure the github activity 
 
 1. Meet the project's coding guidelines (See more about coding guidelines in the "Project documentation" section below)
 2. Be easy to read and understand
-3. [Have relevant comments](https://www.google.com/url?q=https://itnext.io/what-makes-a-good-code-comment-5267debd2c24&sa=D&source=editors&ust=1613042662255000&usg=AOvVaw3N0ydRJCqvOKYQdxKRVNcl)
+3. [Have relevant comments](https://itnext.io/what-makes-a-good-code-comment-5267debd2c24)
 
 * Discussion and review
 
@@ -302,7 +302,7 @@ Execution process quality - in this section we will measure the github activity 
 * Contribution guide  - Meant to help new developers learn how to contribute to your project. Should include the following sections:
 
 1. Development process  - You process and conventions  for managing tickets, commits and PRs. It should be based on the guidelines above, but also include adaptations you make for your own project.
-2. Coding guidelines  - How should code in the project be written. We expect all Python code to conform to the [PEP8](https://www.google.com/url?q=https://www.python.org/dev/peps/pep-0008/&sa=D&source=editors&ust=1613042662266000&usg=AOvVaw2gWFNJaV2TNAxJ3XPh_M83) standard, and your guidelines should mention that, but also expand on it for the specifics of your project.
+2. Coding guidelines  - How should code in the project be written. We expect all Python code to conform to the [PEP8](https://www.python.org/dev/peps/pep-0008) standard, and your guidelines should mention that, but also expand on it for the specifics of your project.
 3. Getting started  - How to set up a development environment to begin working on the project code.
 
 * Architecture guide
@@ -311,7 +311,7 @@ Execution process quality - in this section we will measure the github activity 
 
 * License
 
-1. You need to pick an [OSI-approved](https://www.google.com/url?q=https://opensource.org/licenses&sa=D&source=editors&ust=1613042662268000&usg=AOvVaw0vpfOKE3uY-J2RmizezEqh) license for your project.
+1. You need to pick an [OSI-approved](https://opensource.org/licenses) license for your project.
 2. We expect you to create and merge a PR that includes the license file as well as any other adjustments you need to make to your code to meet the terms of the license. The commit message and the description of the PR should include your reasons for choosing the particular license that you chose.
 
 ## System Requirements
@@ -322,9 +322,9 @@ Execution process quality - in this section we will measure the github activity 
 * Language - English (Username should be in English)
 * Installations:
 
-* [Git](https://www.google.com/url?q=https://git-scm.com/downloads&sa=D&source=editors&ust=1613042662271000&usg=AOvVaw3RMBC0sCugbpOempjCXWWH)
-* [Virtualbox](https://www.google.com/url?q=https://www.virtualbox.org/wiki/Downloads&sa=D&source=editors&ust=1613042662271000&usg=AOvVaw0zv9IjMA548nVDp2VzfYXe)
-* [Vagrant](https://www.google.com/url?q=https://www.vagrantup.com/downloads.html&sa=D&source=editors&ust=1613042662272000&usg=AOvVaw2U4fwU5Xy0fud_fkzRFNsn)
+* [Git](https://git-scm.com/downloads)
+* [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+* [Vagrant](https://www.vagrantup.com/downloads.html)
 
 ## List of things you can do to improve communications with your instructors and team mates and your overall "visibility"
 
@@ -341,8 +341,8 @@ Execution process quality - in this section we will measure the github activity 
 * Client-Server architecture - a computing model in which the server hosts, delivers and manages most of the resources and services to be consumed by the client. This type of architecture has one or more client computers connected to a central server.
 
 * Framework - a code library that makes a developer's life easier when building reliable, scalable, and maintainable web applications by providing reusable code or extensions for common operations.
-* [Retrospective](https://www.google.com/url?q=https://geekbot.com/blog/what-is-a-sprint-retrospective-and-how-to-run-it/?k_id%3Ddsa-19959388920%26adgroup_id%3D73039967424%26campaign_name_ad%3D1697251819%26gclid%3DEAIaIQobChMIndCv9oax6wIVhdCyCh3ojgj2EAAYASAAEgLxh_D_BwE&sa=D&source=editors&ust=1613042662275000&usg=AOvVaw1f5hPaquTuIiISO5jw0Nm6)
-* [Daily standup](https://www.google.com/url?q=https://geekbot.com/blog/daily-standup-meeting/?k_id%3Ddsa-910872033553%26adgroup_id%3D96910465570%26campaign_name_ad%3D10071775578%26gclid%3DEAIaIQobChMIotXiiYex6wIVzJ13Ch3nDg3HEAAYASAAEgLaVPD_BwE&sa=D&source=editors&ust=1613042662276000&usg=AOvVaw2FMaimUmMz-2DM9ts16oo6)
-* [Technical debt](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Technical_debt%23:~:text%3DTechnical%2520debt%2520(also%2520known%2520as,approach%2520that%2520would%2520take%2520longer.&sa=D&source=editors&ust=1613042662277000&usg=AOvVaw07S0Nd3s71oBIx1ffQ1bPO))
-* [Refactoring](https://www.google.com/url?q=https://refactoring.com/%23:~:text%3DRefactoring%2520is%2520a%2520disciplined%2520technique,of%2520small%2520behavior%2520preserving%2520transformations.&sa=D&source=editors&ust=1613042662277000&usg=AOvVaw0EfkmYVDn7rrpQCoL-WhWC)
+* [Retrospective](https://geekbot.com/blog/what-is-a-sprint-retrospective-and-how-to-run-it)
+* [Daily standup](https://geekbot.com/blog/daily-standup-meeting)
+* [Technical debt](https://en.wikipedia.org/wiki/Technical_debt)
+* [Refactoring](https://refactoring.com)
 
