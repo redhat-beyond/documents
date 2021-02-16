@@ -6,20 +6,20 @@
 
 ## Pre-requirements
 
-You  will be working on a project during this course.
+You will be working on a project during this course.
 
 The following tech stack will be used.
 
 If you don't have knowledge/experience in any of them, it is worthwhile to look them up. The more you know the easier it will be.
 
-* Linux  OS - able to use basic command line tools such as cd, ls, cat, grep, less, vi, ...
-* Python  - if/else, for loops, functions, classes
+* Linux OS - able to use basic command line tools such as cd, ls, cat, grep, less, vi, ...
+* Python - if/else, for loops, functions, classes
 * Django - create a basic or sample project
 * Git and GitHub - create a repo, commit, push, pull requests (PR), merge
 * HTML/CSS (Bootstrap) - design a basic web page from scratch, including using CSS classes for basic formatting
 * Testing- unit tests and functional tests with pytest
 * Virtualization - Spin up a VM using Vagrant and VirtualBox
-* Databases  - Basic familiarity with database concepts
+* Databases - Basic familiarity with database concepts
 
 ## Milestones
 
@@ -55,7 +55,7 @@ General guidelines
 3. Create GitHub issues to track the work your team needs to do and assign them to the students who will do them
 4. You can sub-divide the tasks above to smaller issues as needed, as long as you document what you plan clearly
 5. Use PRs to make code changes to your project, link them to the relevant issues
-6. Make sure you assign  your teammates as well as your mentors as reviewers for your PRs
+6. Make sure you assign your teammates as well as your mentors as reviewers for your PRs
 7. The review process can take a few days - make sure you send your PRs early enough so they will be merged in time for the demo
 8. You will be given a template for each demo with the specific details that are required
 9. Designate a primary speaker for your team. Other members are encouraged to speak as well, but if so plan who talks on what so you can all finish within the allotted time (15m).
@@ -68,22 +68,21 @@ The purpose of this demo is to show your application's data model and data manip
 
 Technical requirements
 
-1. For each feature you're planning to add to your project should include :
+1. For each feature you're planning to add to your project should include:
 
-1. Data model classes
-2. Migration files for initializing the data model
-3. Migration files for creating test data for your DEV environment
-4. Data model functions  for the more complex data operation you expect to do in your applications
-5. Tests  for the data model functions
+    1. Data model classes
+    2. Migration files for initializing the data model
+    3. Migration files for creating test data for your DEV environment
+    4. Data model functions for the more complex data operation you expect to do in your applications
+    5. Tests for the data model functions
 
-1. Your bootstrap script should run the data migrations when your Vagrant VM starts up<sup>[[b]](#cmnt2)</sup><sup>[[c]](#cmnt3)</sup><sup>[[d]](#cmnt4)</sup><sup>[[e]](#cmnt5)</sup><sup>[[f]](#cmnt6)</sup>
-2. You should have a CI job (Github Workflows) in GitHub that runs your tests
-3. In  your presentation you should:
-
-1. Present all design aspects of the features you're working on including [ERDs](https://www.lucidchart.com/pages/how-to-draw-ERD) and [DFDs](https://www.lucidchart.com/pages/data-flow-diagram) (data design and flow documents).
-2. Show  your data model via the Django admin UI
-3. Present your data manipulation functions  via the Django shell
-4. Show your test code and explain what you've tested
+2. Your bootstrap script should run the data migrations when your Vagrant VM starts up <sup>[[b]](#cmnt2)</sup> <sup>[[c]](#cmnt3)</sup> <sup>[[d]](#cmnt4)</sup> <sup>[[e]](#cmnt5)</sup> <sup>[[f]](#cmnt6)</sup>
+3. You should have a CI job (Github Workflows) in GitHub that runs your tests
+4. In your presentation you should:
+    1. Present all design aspects of the features you're working on including [ERDs](https://www.lucidchart.com/pages/how-to-draw-ERD) and [DFDs](https://www.lucidchart.com/pages/data-flow-diagram) (data design and flow documents).
+    2. Show your data model via the Django admin UI
+    3. Present your data manipulation functions via the Django shell
+    4. Show your test code and explain what you've tested
 
 Work division
 
@@ -104,14 +103,14 @@ The purpose of this demo is to review your ability to implement the application 
 
 Technical requirements
 
-1. Tests  for the data model functions
+1. Tests for the data model functions
 2. Complete the implementation of one or more features of your application, including UI and backend logic. The features you implement should allow you to demonstrate your ability to:
 
-1. Query data from your database and present it to your users
-2. Use forms to gather user input
-3. Store or modify information in the database as a response to user input
+    1. Query data from your database and present it to your users
+    2. Use forms to gather user input
+    3. Store or modify information in the database as a response to user input
 
-1. Implement automated tests for the features you've completed
+3. Implement automated tests for the features you've completed
 
 Demo contents
 
@@ -120,12 +119,11 @@ Your demo presentation should include the following elements:
 1. One or more video segments showing how the features you've implemented look and work from a user's point of view.
 2. An explanation of how you've tested the features you've developed. You should include the following details:
 
-1. Which manual tests were carried out. How does one decide if a test was successful?
-2. Which automated tests were written
-3. Are failure scenarios being tested? In which way?
-4. What aspects of the features you've written are not being tested?
-
-1. A demonstration of the application tests being run in GitHub actions.
+    1. Which manual tests were carried out. How does one decide if a test was successful?
+    2. Which automated tests were written
+    3. Are failure scenarios being tested? In which way?
+    4. What aspects of the features you've written are not being tested?
+3. A demonstration of the application tests being run in GitHub actions.
 
 ### Demo 4 (May 30): Final Project Demo
 
@@ -141,14 +139,14 @@ The purpose of this demo is to show your development process and should includes
 
 ## Division into project groups (till Mar 4th)
 
-After the first 2  weeks  you'll be divided into 4 groups.
+After the first 2 weeks you'll be divided into 4 groups.
 
 Each group will have mentors:
 
 * group1: Sim & Omer & Or
 * group2: Yariv & Guy & Edi
 * group3: Barak & Aviad & Luiza
-* group4(AWS): Liora &  Bruna & Kobi
+* group4(AWS): Liora & Bruna & Kobi
 
 ## Project ideas
 
@@ -192,59 +190,59 @@ Each group will have mentors:
 * The Red Hat team will assign one of the following grades to each student which will be translated into the final grade by the professor. The grade is derived from:
 
 * Collaboration and engagement - To work together with others to achieve a common goal.
-* Execution  process quality
+* Execution process quality
 
 Collaboration and engagement - communication is almost everything. We expect to hear you. During classes, over Slack, in PRs and in GitHub issues. To be blunt about it - if by the end of the course, if none of the Red Hatters remember who you are - you will not get a good grade.
 
-Class attendance  - while attendance will help you to get familiar with the material and necessary to engage and collaborate with the staff - it only won't affect the grade.
+Class attendance - while attendance will help you to get familiar with the material and necessary to engage and collaborate with the staff - it only won't affect the grade.
 
-* Grade 1- hasn't any slack activity, without any responsiveness  to his PRs.
-* Grade 2- works alone. Does not discuss decisions made and issues with the mentors or his team mates.
-* Grade 3- Responsible for closing his PRs quickly (uses office hours, if needed), slack activity inside the group and/or with the mentors, presenting in the demos.
-* Grade 4- Review teammates PRs, the leader(s) of the group (the most  engaged  teammate(s) in others' tasks), helps others.
+* Grade 1 - hasn't any slack activity, without any responsiveness to his PRs.
+* Grade 2 - works alone. Does not discuss decisions made and issues with the mentors or his team mates.
+* Grade 3 - Responsible for closing his PRs quickly (uses office hours, if needed), slack activity inside the group and/or with the mentors, presenting in the demos.
+* Grade 4 - Review teammates PRs, the leader(s) of the group (the most engaged teammate(s) in others' tasks), helps others.
 
 Execution process quality - in this section we will measure the github activity (PRs) and the improvement in the technology stuck (frontend, backend, Data model, tests). We would like to see feature planning and the ability to learn new areas despite failures.
 
 * Grade 1 - not enough PRs, not involved in feature planning, was involved with only 1 layer from the technology stack(frontend, backend, Data model, tests).
-* Grade 2  - a few merged PRs ( minor PRs or 1-2 PR for a demo period) , involving only 2 layers of the technology stack(frontend, backend, DBs, tests).
-* Grade 3  - Wrote PRs involving at least 3 of the 4 layers in the technology stuck (frontend, backend, Data model, tests), part of feature planning, for each PR attached an issue.
+* Grade 2 - a few merged PRs ( minor PRs or 1-2 PR for a demo period) , involving only 2 layers of the technology stack(frontend, backend, DBs, tests).
+* Grade 3 - Wrote PRs involving at least 3 of the 4 layers in the technology stuck (frontend, backend, Data model, tests), part of feature planning, for each PR attached an issue.
 * Grade 4 - touching on all the technology stack (frontend, backend, Data model, tests), every week publish and merge at least 2 significant PRs, each PR includes tests, ability to learn new areas and subject on himself.
 
-## Grade Process  
+## Grade Process 
 
 * Performance review - The grading process is built to mimic the employee performance evaluation process in organisations such as Red Hat
 
-* In the middle of the course you'll meet your mentors to review your performance.
-* After the last demo we will ask for a self performance review to retrospect yourself and challenge yourself at least one improvement.
+    * In the middle of the course you'll meet your mentors to review your performance.
+    * After the last demo we will ask for a self performance review to retrospect yourself and challenge yourself at least one improvement.
 
 ## Guidelines for creating good PRs
 
 * Aim, focus and completeness - A good PR does one thing, does it well and is self-contained - single responsibility principle. It does not break existing functionality.
-* Description quality  - a PR description should explain what  it changes, and why . It should also link to a relevant ticket that contains the user story that the PR implements.
+* Description quality - a PR description should explain what it changes, and why . It should also link to a relevant ticket that contains the user story that the PR implements.
 
-1. If it's a frontend change it should contain also screenshots
+    1. If it's a frontend change it should contain also screenshots
 
-* Commit quality  - a PR should have 1-5 commits where each one:
+* Commit quality - a PR should have 1-5 commits where each one:
 
-1. Contains a mostly self-contained code change
-2. Has a good commit message that meets the [commit message guidelines](https://chris.beams.io/posts/git-commit) and explains the change the commit introduces.
-3. Helps towards understanding the PR as a whole
+    1. Contains a mostly self-contained code change
+    2. Has a good commit message that meets the [commit message guidelines](https://chris.beams.io/posts/git-commit)and explains the change the commit introduces.
+    3. Helps towards understanding the PR as a whole
 
 * Overall Size
 
-1. A PR should not generally change more then 100-300 lines of code
-2.  A PR can  grow up to 600 lines if more than 50% of the change is comments, documentation or tests
+    1. A PR should not generally change more then 100-300 lines of code
+    2. A PR can grow up to 600 lines if more than 50% of the change is comments, documentation or tests
 
-* Code quality  - The code in the PR should:
+* Code quality - The code in the PR should:
 
-1. Meet the project's coding guidelines (See more about coding guidelines in the "Project documentation" section below)
-2. Be easy to read and understand
-3. [Have relevant comments](https://itnext.io/what-makes-a-good-code-comment-5267debd2c24)
+    1. Meet the project's coding guidelines (See more about coding guidelines in the "Project documentation" section below)
+    2. Be easy to read and understand
+    3. [Have relevant comments](https://itnext.io/what-makes-a-good-code-comment-5267debd2c24)
 
 * Discussion and review
 
-1. A PR must be reviewed and approved by other team members
-2. We expect to see discussion that indicated the team members understand what is the PR supposed to do
+    1. A PR must be reviewed and approved by other team members
+    2. We expect to see discussion that indicated the team members understand what is the PR supposed to do
 
 ### Really bad PRs (Make people unable or unwilling to review them)
 
@@ -258,61 +256,61 @@ Execution process quality - in this section we will measure the github activity 
 
 * Title
 
-1. Must be clear, concise and accurately describe what the issue is about
+    * Must be clear, concise and accurately describe what the issue is about
 
 * Description
 
-1. Must include a clear explanation about the reasons for doing the work. Preferably in the form of a user story that clearly mentions the stakeholders involved and their wishes
+    * Must include a clear explanation about the reasons for doing the work. Preferably in the form of a user story that clearly mentions the stakeholders involved and their wishes
 
 * Acceptance criteria
 
-1. Must be a list of measurable achievements that indicate the work in the issue is done
+    * Must be a list of measurable achievements that indicate the work in the issue is done
 
 * Status Labels
 
-1. Each issue must be labeled to indicate its status as:
+    1. Each issue must be labeled to indicate its status as:
 
-* Status/New  - An issue that was just created, you can decide that unflagged tickets are considered new
-* Status/Backlog - A issue that was discussed and accepted for work
-* Status/In progress  - An issue that is being worked on
-* Closed - not a flag - just closing the issue in GitHub - indicates work on the issue is done
+        * Status/New - An issue that was just created, you can decide that unflagged tickets are considered new
+        * Status/Backlog - A issue that was discussed and accepted for work
+        * Status/In progress - An issue that is being worked on
+        * Closed - not a flag - just closing the issue in GitHub - indicates work on the issue is done
 
-1. You may define other labels as you settle on the details of your execution process between yourselves
+    2. You may define other labels as you settle on the details of your execution process between yourselves
 
 * Progress follow-up
 
-1. For issues that are in progress  more than one week, we expect to see at least weekly updates indicating the progress in performing the task
-2. For issues that get closed for reasons other than the work on them being done - we expect to see a comment clearly describing the reasons for closure
+    1. For issues that are in progress more than one week, we expect to see at least weekly updates indicating the progress in performing the task
+    2. For issues that get closed for reasons other than the work on them being done - we expect to see a comment clearly describing the reasons for closure
 
 * Linked PRs
 
-1. GitHub can set links between issues and PRs that mention them in the PR description - you are expected to use that capability extensively to link between issues to the code changes that are made to resolve them
-2. When a PR is indicated to fix an issue - GitHub will close the issue when the PR is merged. We expect most issues to be closed using this automated mechanism.
+    1. GitHub can set links between issues and PRs that mention them in the PR description - you are expected to use that capability extensively to link between issues to the code changes that are made to resolve them
+    2. When a PR is indicated to fix an issue - GitHub will close the issue when the PR is merged. We expect most issues to be closed using this automated mechanism.
 
 ## Guidelines for writing and maintaining project documentation
 
-* README.md  file
+* README.md file
 
-1. Serves as the landing page for your project in GitHub- should tell new users and contributors about your project and where to find more information about to use it or contribute to it. When your project is small you can have all the documentation included in the README, but as it grows we expect different documentation sections to move to their own files.
+    1. Serves as the landing page for your project in GitHub- should tell new users and contributors about your project and where to find more information about to use it or contribute to it. When your project is small you can have all the documentation included in the README, but as it grows we expect different documentation sections to move to their own files.
 
 * user guide (Optional - the famous Achilles Heel of Open Source)
 
-1.  Documents all aspects of using the project from installation to daily operation.  You might have different guides to different types of users - for example you may have an administration guide targeted at system administrators and an end-user guide that is meant for simple end users.
+    1. Documents all aspects of using the project from installation to daily operation. You might have different guides to different types of users - for example you may have an administration guide targeted at system administrators and an end-user guide that is meant for simple end users.
 
-* Contribution guide  - Meant to help new developers learn how to contribute to your project. Should include the following sections:
+* Contribution guide - Meant to help new developers learn how to contribute to your project. Should include the following sections:
 
-1. Development process  - You process and conventions  for managing tickets, commits and PRs. It should be based on the guidelines above, but also include adaptations you make for your own project.
-2. Coding guidelines  - How should code in the project be written. We expect all Python code to conform to the [PEP8](https://www.python.org/dev/peps/pep-0008) standard, and your guidelines should mention that, but also expand on it for the specifics of your project.
-3. Getting started  - How to set up a development environment to begin working on the project code.
+    1. Development process - You process and conventions for managing tickets, commits and PRs. It should be based on the guidelines above, but also include adaptations you make for your own project.
+    2. Coding guidelines - How should code in the project be written. We expect all Python code to conform to the [PEP8](https://www.python.org/dev/peps/pep-0008) standard, and your guidelines should mention that, but also expand on it for the specifics of your project.
+    3. Getting started - How to set up a development environment to begin working on the project code.
 
 * Architecture guide
 
-1. How to understand the project code - which major frameworks are used, the class structure, technical design background information and where to find the different kinds of files in the project
+    1. How to understand the project code - which major frameworks are used, the class structure, technical design background information and where to find the different kinds of files in the project
 
 * License
 
-1. You need to pick an [OSI-approved](https://opensource.org/licenses) license for your project.
-2. We expect you to create and merge a PR that includes the license file as well as any other adjustments you need to make to your code to meet the terms of the license. The commit message and the description of the PR should include your reasons for choosing the particular license that you chose.
+    1. You need to pick an [OSI-approved](https://opensource.org/licenses) license for your project.
+    2. We expect you to create and merge a PR that includes the license file as well as any other adjustments you need to make to your code to meet the terms of the license. The commit message and the description of the PR should include your reasons for choosing the particular license that you chose.
 
 ## System Requirements
 
@@ -322,9 +320,9 @@ Execution process quality - in this section we will measure the github activity 
 * Language - English (Username should be in English)
 * Installations:
 
-* [Git](https://git-scm.com/downloads)
-* [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-* [Vagrant](https://www.vagrantup.com/downloads.html)
+    * [Git](https://git-scm.com/downloads)
+    * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+    * [Vagrant](https://www.vagrantup.com/downloads.html)
 
 ## List of things you can do to improve communications with your instructors and team mates and your overall "visibility"
 
@@ -336,8 +334,8 @@ Execution process quality - in this section we will measure the github activity 
 ## Buzz words
 
 * PR - A pull request (PR) is a method of submitting contributions to an open development project.
-* CR  - code review is a software quality assurance activity in which one or several people check a program mainly by viewing and reading parts of its source code. At least one of the persons must not be the code's author.
-* LGTM  - looks good to me. Commonly used in CR.
+* CR - code review is a software quality assurance activity in which one or several people check a program mainly by viewing and reading parts of its source code. At least one of the persons must not be the code's author.
+* LGTM - looks good to me. Commonly used in CR.
 * Client-Server architecture - a computing model in which the server hosts, delivers and manages most of the resources and services to be consumed by the client. This type of architecture has one or more client computers connected to a central server.
 
 * Framework - a code library that makes a developer's life easier when building reliable, scalable, and maintainable web applications by providing reusable code or extensions for common operations.
