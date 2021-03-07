@@ -42,11 +42,12 @@ Work division
 
 To ensure that every member of your team plays an active role in preparing for the demo, we require that you divide the work between you in the following way:
 
-1. Student1: vagrant + bootstrap.sh
-2. Student2: Django
-3. Student3: Web page
-4. Student4: ReadMe file
-5. Student5: flake8
+1. Student1: vagrant
+2. Student2: bootstrap.sh
+3. Student3: Django
+4. Student4: Web page
+5. Student5: ReadMe file
+6. Student6: flake8
 
 General guidelines
 
@@ -179,10 +180,9 @@ Each group will have mentors:
 | 8              | 18.04                  | Application logic and Testing                                                                                                                                                                                                                                |                      |
 | 9              | 25.4                   | Writing and testing the Django application views and templates, bootstrapping (navigation), Practicing testing                                                                                                                                               |                      |
 | 10             | 02.05                  | Demo 3: Testing, Control logic and UI                                                                                                                                                                                                                        |                      |
-| 11             | 09.05                  | ??                                                                                                                                                                                                                                                           |                      |
-| 12             | 23.05 (after Shavuot)  | Round table Q&A - job interview                                                                                                                                                                                                                              |                      |
-| 13             | 30.05 (last session)   | Final Project Demo and course retrospective                                                                                                                                                                                                                  |                      |
-|                |                        | Advanced DevOps topics: (will not be needed for project)We should select one of these topics: Docker and Kubernetes Ansible and configuration tools Linux OS basics Logging basics                                                                           |                      |
+| 11             | 09.05                  | Round table Q&A - job interview                                                                                                                                                                                                                                                           |                      |
+| 12             | 23.05 (last session)   | Final Project Demo and course retrospective                                                                                                                                                                                                                              |                      |
+
 
 
 ## Final Grade
