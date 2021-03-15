@@ -1,4 +1,4 @@
-# Beyond 05
+# Beyond 06
 
 # Statement of Work (SOW)
 
@@ -23,9 +23,11 @@ If you don't have knowledge/experience in any of them, it is worthwhile to look 
 
 ## Milestones
 
-### Demo 1 (Mar 14): Project selection and setting up a DEV environment
+### Demo 1 (Nov 7): Project selection and setting up a DEV environment
 
-The main purpose of the demo is to motivate you to come together as a project development team and establish your shared working environment and process. As such, we will monitor when and how you do the work of preparing for the demo, and the process is as important (If not more so) as the final results you will present.
+The main purpose of the demo is to motivate you to come together as a project development team and establish your shared working environment and process.
+As such, we will monitor when and how you do the work of preparing for the demo, 
+and the process is as important (If not more so) as the final results you will present.
 
 Technical requirements
 
@@ -59,11 +61,11 @@ General guidelines
 6. Make sure you assign your teammates as well as your mentors as reviewers for your PRs
 7. The review process can take a few days - make sure you send your PRs early enough so they will be merged in time for the demo
 8. You will be given a template for each demo with the specific details that are required
-9. Designate a primary speaker for your team. Other members are encouraged to speak as well, but if so plan who talks on what so you can all finish within the allotted time (15m).
+9. Designate a primary speaker for your team. Other members are encouraged to speak as well, but if so, plan who talks on what so you can all finish within the allotted time (15m).
 10. It is recommended to pre-record technical demos to prevent technical issues from disturbing your demo
 11. Please make sure all your teammates can successfully use Git to clone the team project and Vagrant to bring up the development environment on their machines.
 
-### Demo 2 (Apr 11): Data model and basic testing
+### Demo 2 (Nov 28): Data model and business logic
 
 The purpose of this demo is to show your application's data model and data manipulation logic.
 
@@ -94,24 +96,24 @@ Working in this way will provide several benefits:
 1. It will allow each team member to experience all the layers of the technical stack
 2. It can reduce the amount of Git conflicts you may encounter as you work on your projects because different features can live in different files.
 
-### Performance Review (between Apr 11 to Apr 18) :
+### Performance Review (between Nov 28 to Dec 2) :
 
-TBD
+The student team mentors will setup a personal 10-minute meeting with each of the students in their team and give them feedback about their performance in the course so far: What did they do well and where should they improve.
+As a student you should take the time to think about how you perceive your own performance, how is that different from how the mentors see it and why. Take the opportunity to learn how to improve!
 
-### Demo 3 (May 2): Control logic and UI
+### Demo 3 (Dec 19): Control logic and UI
 
 The purpose of this demo is to review your ability to implement the application UI logic and test various aspects of the application.
 
 Technical requirements
 
-1. Tests for the data model functions
-2. Complete the implementation of one or more features of your application, including UI and backend logic. The features you implement should allow you to demonstrate your ability to:
+1. Complete the implementation of one or more features of your application, including UI and backend logic. The features you implement should allow you to demonstrate your ability to:
 
     1. Query data from your database and present it to your users
     2. Use forms to gather user input
     3. Store or modify information in the database as a response to user input
 
-3. Implement automated tests for the features you've completed
+2. Implement automated tests for the features you've completed
 
 Demo contents
 
@@ -126,7 +128,7 @@ Your demo presentation should include the following elements:
     4. What aspects of the features you've written are not being tested?
 3. A demonstration of the application tests being run in GitHub actions.
 
-### Demo 4 (May 30): Final Project Demo
+### Demo 4 (Jan 2): Final Project Demo
 
 The purpose of this demo is to show your development process and should includes:
 
@@ -138,16 +140,15 @@ The purpose of this demo is to show your development process and should includes
 6. Development challenges
 7. What did you learn
 
-## Division into project groups (till Mar 4th)
+## Division into project groups (till Oct22th)
 
 After the first 2 weeks you'll be divided into 4 groups.
 
 Each group will have mentors:
 
-* group1: Sim & Omer & Or
-* group2: Yariv & Guy & Edi
-* group3: Barak & Aviad & Luiza
-* group4(AWS): Liora & Bruna & Kobi
+* group1: Yariv, Arie, Shimrit & Omer
+* group2: Kobi, Michal, Nati & Nahshon
+* group3: Barak, Daniel, Guy & Eran
 
 ## Project ideas
 
@@ -160,28 +161,27 @@ Each group will have mentors:
 ## Syllabus (list of sessions)
 
 | Session number | Date                   | Topic(s)                                                                                                                                                                                                                                                     | Lecturer             |
-|----------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-| -              | 14.2                   | Self learning: Tool introduction challenge                                                                                                                                                                                                                   | (Self work)          |
-| 1              | 21.02                  | Intro session (housekeeping) ~50 min +Talk about initial challenges and student selection                                                                                                                                                                    | Liora Milbaum        |
-|                |                        | Modern software applications - Architecture, Tooling and development processes.                                                                                                                                                                              | Barak Korren         |
-|                |                        | Incorporate presenting of the 1st exercise and the skill evaluation form in the 1st lecture                                                                                                                                                                  | Barak Korren         |
-| -              | 25.02                  | First challenge   self evaluation form submission date                                                                                                                                                                                                       | (Self work)          |
-| 2              | 28.02                  | Team collaboration: Git, GitHub, PRs and issues.                                                                                                                                                                                                             | Liora Milbaum        |
-|                |                        | Practicing Git (challenges)                                                                                                                                                                                                                                  | Liora Milbaum        |
-|                |                        | Incorporate presentation of the Git pair challenge into the 2nd lecture                                                                                                                                                                                      | Barak Koren          |
-| -              | 28.02                  | Self learning: Using Git in a team challenge And division into project groups                                                                                                                                                                                | (Self work in pairs) |
-| -              | 06.03                  | Git challenge submission date                                                                                                                                                                                                                                | (Self work)          |
-| 3              | 07.03                  | Advanced Git and GitHub skills                                                                                                                                                                                                                               | Liora Mibaum         |
-| 4              | 14.03                  | Demo 1:  Pre-requirements  fully working env (PRs, vagrant, issues with dependencies) Student 1: vagrant env Student 2: Django Student 3: Home page Student 4: CI with flake8 Student 5: ReadMe page (in git)  Demo: Guided Demo: Project presentation, MVP  |                      |
-| 5              | 21.03                  | Python 101                                                                                                                                                                                                                                                   |  Bruna Bonguardo      |
-| 6              | 04.04 (After Passover) | Databases, data model and the ORM                                                                                                                                                                                                                            |  Sim Zacks           |
-| 7              | 11.04                  | Demo 2: Data Model                                                                                                                                                                                                                                           |                      |
-|                | 11.04-18.04            | Performance review week                                                                                                                                                                                                                                      |                     |
-| 8              | 18.04                  | Application logic and Testing                                                                                                                                                                                                                                |   Edy Haas          |
-| 9              | 25.4                   | Writing and testing the Django application views and templates, bootstrapping (navigation), Practicing testing                                                                                                                                               |  Yariv Rachmany     |
-| 10             | 02.05                  | Demo 3: Testing, Control logic and UI                                                                                                                                                                                                                        |                      |
-| 11             | 09.05                  | Round table Q&A - job interview                                                                                                                                                                                                                                                           |                      |
-| 12             | 23.05 (last session)   | Final Project Demo and course retrospective                                                                                                                                                                                                                              |                      |
+|----------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|                                                                                                     | 1              | 10.10                  | Intro session (housekeeping) ~50 min +Talk about initial challenges and student selection                                                                                                                                                                    | Liora Milbaum        |
+|                |                        | Self learning: Tool introduction challenge
+                                                                                      | (Self work)          |  
+
+                                           Modern software applications - Architecture, Tooling and development processes.                                                                                                                                                                              | Barak Korren         |
+
+| -              | 15.10                  | First challenge   self evaluation form submission date                                                                                                                                                                                                       | (Self work)          |
+| 2              | 17.10                  | Python 101                                                                                                                                                                                                                                                   |  Kobi Hakimi         |
+| 3              | 31.10                  | Databases, data model and the ORM                                                                                                                                                                                                                            |  Sim Zacks           |
+| 4              | 07.11                  | Demo 1: Development environment           |                      |
+
+| 5              | 14.11                  | Application logic and Testing                                                                                                                                                                                                                                |   Edy Haas           |
+| 6              | 21.11                  | UI: Routes, Views and Templates                                                                                                                                                                                                                              |   Yariv              |
+| 7              | 28.11                  | Demo 2: Data Model                                                                                                                                                                                                                                           |                      |
+|                | Nov 28 - Dec 02        | Performance review week                                                                                                                                                                                                                                      |                      |
+| 8              | 5.12                   | Going to production 1 - PAAS and containers                                                                                                                                                                                                                  | Barak Korren         |
+
+|                |                        | Writing and testing the Django application views and templates, bootstrapping (navigation), Practicing testing                                                                                                                                               |  Yariv Rachmany      |
+| 9              | 19.12                  | Demo 3: Testing, Control logic and UI                                                                                                                                                                                                                        |                      |
+| 10             |                        | AMA - Being a software engineer in the industry                                                                                                                                                                                                              |                      |
+| 11             | 02.01 (last session)   | Final Project Demo and course retrospective                                                                                                                                                                                                                  |                      |
 
 
 
@@ -209,8 +209,6 @@ Execution process quality - in this section we will measure the github activity 
 * Grade 4 - touching on all the technology stack (frontend, backend, Data model, tests), every week publish and merge at least 2 significant PRs, each PR includes tests, ability to learn new areas and subject on himself.
 
 ## Grade Process 
-
-* Performance review - The grading process is built to mimic the employee performance evaluation process in organisations such as Red Hat
 
     * In the middle of the course you'll meet your mentors to review your performance.
     * After the last demo we will ask for a self performance review to retrospect yourself and challenge yourself at least one improvement.
