@@ -48,8 +48,7 @@ To ensure that every member of your team plays an active role in preparing for t
 2. Student2: bootstrap.sh
 3. Student3: Django
 4. Student4: Web page
-5. Student5: ReadMe file
-6. Student6: flake8
+5. Student5: ReadMe file + flake8
 
 General guidelines
 
