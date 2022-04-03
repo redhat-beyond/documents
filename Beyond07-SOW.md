@@ -147,7 +147,7 @@ The student team mentors will set up a personal 10-minute meeting with each of
 the students in their team and give them feedback about their performance in the
 course so far: What did they do well and where should they improve. As a student
 you should take the time to think about how you perceive your own performance,
-how is different from how the mentors see it and why. Take the opportunity
+how is that different from how the mentors see it and why. Take the opportunity
 to learn how to improve!
 
 ### Demo 3 (May 1st): Control logic and UI
@@ -194,7 +194,7 @@ should include:
 2. Technical ideas and architecture - Explain test high-level technical 
    ideas behind your project, please try to present concepts graphically, 
    possibly by using ERD and DFD charts.
-4. Demo - a video that presents your full system (UI, DB, APIs, CI)
+4. Demo - A video that presents your full system (UI, DB, APIs, CI)
 5. Development process - share the process you made
 6. Development challenges
 7. What did you learn
