@@ -42,7 +42,7 @@ and come up with the basic idea and name for your project.
 
 To be ready for the demo, your project should include the following elements:
 
-1. A working Vagrant environment that brings up the default Django web server
+1. A working Vagrant environment that brings up the default Django webserver
 2. A basic Django application that includes a static web page showing the 
    name of your project and a short description about it
 3. A GitHub repo in the Beyond organization with:
@@ -61,7 +61,7 @@ have been given.
 
 **Work division**
 
-To ensure that every member of your team plays an active role in preparing for
+Ensure that every member of your team plays an active role in preparing for
 the demo, we require that you divide the work between you in the following way:
 
 1. Student1: vagrant
@@ -78,7 +78,7 @@ the demo, we require that you divide the work between you in the following way:
    Beyond organization.
 3. Create GitHub issues to track the work your team needs to do and assign them
    to the students who will do them
-4. You can subdivide the tasks above to smaller issues as needed, as long as
+4. You can subdivide the tasks above into smaller issues as needed, as long as
    you document what you plan clearly
 5. Use PRs to make code changes to your project, link them to the relevant
    issues
@@ -147,7 +147,7 @@ The student team mentors will set up a personal 10-minute meeting with each of
 the students in their team and give them feedback about their performance in the
 course so far: What did they do well and where should they improve. As a student
 you should take the time to think about how you perceive your own performance,
-how is that different from how the mentors see it and why. Take the opportunity
+how is different from how the mentors see it and why. Take the opportunity
 to learn how to improve!
 
 ### Demo 3 (May 1st): Control logic and UI
@@ -155,7 +155,7 @@ to learn how to improve!
 The purpose of this demo is to review your ability to implement the application
 workflow and UI logic and implement automated tests for it.
 
-**Technical requirements**
+**Technical Requirements**
 
 1. Complete the implementation of one or more features of your application,
    including UI and backend logic. The features you implement should allow you
@@ -193,22 +193,23 @@ should include:
 1. Project background - Explain in general the motivation and the requirements.
 2. Technical ideas and architecture - Explain test high-level technical 
    ideas behind your project, please try to present concepts graphically, 
-   possibly by using ERD adn DFD charts.
-4. Demo - video that presents your full system (UI, DB, APIs, CI)
+   possibly by using ERD and DFD charts.
+4. Demo - a video that presents your full system (UI, DB, APIs, CI)
 5. Development process - share the process you made
 6. Development challenges
 7. What did you learn
 
 ## Division into project groups (till February 27th)
 
-After the first 2 weeks you'll be divided into 4 teams.
+After the first 2 weeks, you'll be divided into 5 teams.
 
 Each team will have the following mentors:
 
 * Team 1: Omer Amsalem, Micahel Mensherov, Or Mergi
 * Team 2: Yuval Kashtan, Shay Vatarescu, Adi Abramovich
-* Team 3: Kobi Hakimi, Avi Biton, Nati Friedman
+* Team 3: Kobi Hakimi, Benny Rochwerger, Nimer Naamneh
 * Team 4: Yariv Rachmani, Alem Kasem, Ronnie Rasoulli
+* Team 5: Nati Friedman, Avi Biton, Elyasaf Halle
 
 ## Project ideas
 
@@ -243,8 +244,8 @@ You can pick from the ideas below or think up your own.
 | -      | Apr 03 - Apr 07       | Performance review week                         | -               |
 | -      | Sun, Apr 10, 2022     | _(Passover vacation)_                           | -               |
 | -      | Sun, Apr 17, 2022     | _(Passover vacation)_                           | -               |
-| **8**  | **Sun, May 1, 2022**  | **Demo 3: UI and user workflow**                | -               |
-| 9      | Sun, Apr 24, 2022     | Going to production                             | Barak Korren    |
+| 8      | Sun, Apr 24, 2022     | Going to production                             | Barak Korren    |
+| **9**  | **Sun, May 1, 2022**  | **Demo 3: UI and user workflow**                | -               |
 | 10     | Sun, May 08, 2022     | AMA - Being a software engineer in the industry | _(all mentors)_ |
 | **11** | **Sun, May 22, 2022** | **Final Project Demo and course retrospective** | -               |
 
@@ -255,7 +256,7 @@ The grades are assigned to each student based on the following factors:
 * **Engagement**
   * How engaged is the student throughout the course
   * Do they participate in the lessons and demos
-  * Are they active on the Slack channels and in GitHub 
+  * Are they active on the Slack channels and on GitHub
   * "Does the Red Hat team know who you are?"
 * **Collaboration**
   * Does the student collaborate meaningfully with their teammates and 
@@ -273,7 +274,7 @@ team.
 
 ## Guidelines for creating good PRs
 
-* Aim, focus and completeness - A good PR does one thing, does it well and is
+* The aim, focus and completeness - A good PR does one thing, does it well and is
   self-contained - single responsibility principle. It does not break existing
   functionality.
 * Description quality - a PR description should explain what it changes, and 
@@ -411,14 +412,14 @@ team.
 
 * License
 
-    1. A License file defines to copyright protections around your code and
+    1. A License file defines copyright protections around your code and
        what users and contributors are legally allowed to do.
     2. In the open source community, developers typically pick an
        [OSI-approved](https://opensource.org/licenses) license for their  
        projects.
     3. In Beyond, the mentors will create the project repo for you with the 
        permissive [MIT license](https://opensource.org/licenses/MIT). We require
-       that you keep this license for Beyond project in order to facilitate 
+       that you keep this license for the Beyond project in order to facilitate
        sharing with other Beyond students and the Red Hat team.
 
 ## System Requirements
@@ -435,7 +436,7 @@ team.
 
 ## List of things you can do to improve communications with your instructors and teammates and your overall "visibility"
 
-* Set up a recognisable personal avatar (profile picture) in both GitHub and
+* Set up a recognizable personal avatar (profile picture) on both GitHub and
   Slack.
 * Ask for code reviews by mentioning the mentors in the PR
 * Mention people with "@" in GitHub issues and PRs when you want them to comment
