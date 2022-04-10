@@ -150,7 +150,7 @@ you should take the time to think about how you perceive your own performance,
 how is that different from how the mentors see it and why. Take the opportunity
 to learn how to improve!
 
-### Demo 3 (May 1st): Control logic and UI
+### Demo 3 (Apr 24th): Control logic and UI
 
 The purpose of this demo is to review your ability to implement the application
 workflow and UI logic and implement automated tests for it.
@@ -226,28 +226,28 @@ You can pick from the ideas below or think up your own.
 
 ## Syllabus (list of sessions)
 
-| #      | Date                  | Topic(s)                                        | Lecturer        |
-|--------|-----------------------|-------------------------------------------------|-----------------|
-| -      | Sun, Feb 06, 2022     | First challenge hand-off and student selection  | Barak Korren    |
-| 1      | Sun, Feb 13, 2022     | General Introduction                            | Barak Korren    |                                                   
-|        |                       | Project Architecture overview.                  | Barak Korren    | 
-| **-**  | **Fri, Feb 18, 2022** | **First challenge submission date**             | _(Self work)_   |
-| -      | Sun, Feb 20, 2022     | Second challenge hand-off (~30m session)        | Barak Korren    |
-| **-**  | **Fri, Feb 25, 2022** | **Second challenge submission date**            | _(Self work)_   |
-| 2      | Sun, Feb 27, 2022     | Introduction to Python                          | Kobi Hakimi     |
-|        |                       | Project teams announcement                      |                 |
-| 3      | Sun, Mar 06, 2022     | Databases, data model and the ORM               | _(TBD)_         |
-| **4**  | **Sun, Mar 13, 2022** | **Demo 1: Development environment**             | -               |
-| 5      | Sun, Mar 20, 2022     | Business logic and Testing                      | Eddy Haas       |
-| 6      | Sun, Mar 27, 2022     | UI: Routes, Views and Templates                 | Yariv Rachmani  |
-| **7**  | **Sun, Apr 03, 2022** | **Demo 2: Data Model and business logic**       | -               |
-| -      | Apr 03 - Apr 07       | Performance review week                         | -               |
-| -      | Sun, Apr 10, 2022     | _(Passover vacation)_                           | -               |
-| -      | Sun, Apr 17, 2022     | _(Passover vacation)_                           | -               |
-| 8      | Sun, Apr 24, 2022     | Going to production                             | Barak Korren    |
-| **9**  | **Sun, May 1, 2022**  | **Demo 3: UI and user workflow**                | -               |
-| 10     | Sun, May 08, 2022     | AMA - Being a software engineer in the industry | _(all mentors)_ |
-| **11** | **Sun, May 22, 2022** | **Final Project Demo and course retrospective** | -               |
+| #      | Date                    | Topic(s)                                        | Lecturer        |
+|--------|-------------------------|-------------------------------------------------|-----------------|
+| -      | Sun, Feb 06, 2022       | First challenge hand-off and student selection  | Barak Korren    |
+| 1      | Sun, Feb 13, 2022       | General Introduction                            | Barak Korren    |                                                   
+|        |                         | Project Architecture overview.                  | Barak Korren    | 
+| **-**  | **Fri, Feb 18, 2022**   | **First challenge submission date**             | _(Self work)_   |
+| -      | Sun, Feb 20, 2022       | Second challenge hand-off (~30m session)        | Barak Korren    |
+| **-**  | **Fri, Feb 25, 2022**   | **Second challenge submission date**            | _(Self work)_   |
+| 2      | Sun, Feb 27, 2022       | Introduction to Python                          | Kobi Hakimi     |
+|        |                         | Project teams announcement                      |                 |
+| 3      | Sun, Mar 06, 2022       | Databases, data model and the ORM               | _(TBD)_         |
+| **4**  | **Sun, Mar 13, 2022**   | **Demo 1: Development environment**             | -               |
+| 5      | Sun, Mar 20, 2022       | Business logic and Testing                      | Eddy Haas       |
+| 6      | Sun, Mar 27, 2022       | UI: Routes, Views and Templates                 | Yariv Rachmani  |
+| **7**  | **Sun, Apr 03, 2022**   | **Demo 2: Data Model and business logic**       | -               |
+| -      | Apr 03 - Apr 07         | Performance review week                         | -               |
+| -      | Sun, Apr 10, 2022       | _(Passover vacation)_                           | -               |
+| -      | Sun, Apr 17, 2022       | _(Passover vacation)_                           | -               |
+| **8**  | **Sun, Apr 24th, 2022** | **Demo 3: UI and user workflow**                | -               |
+| 9      | Sun, May 01, 2022       | Going to production                             | Barak Korren    |
+| 10     | Sun, May 08, 2022       | AMA - Being a software engineer in the industry | _(all mentors)_ |
+| **11** | **Sun, May 22, 2022**   | **Final Project Demo and course retrospective** | -               |
 
 ## Final Grade
 
