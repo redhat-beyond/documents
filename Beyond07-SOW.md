@@ -247,7 +247,7 @@ You can pick from the ideas below or think up your own.
 | **8**  | **Sun, Apr 24th, 2022** | **Demo 3: UI and user workflow**                | -               |
 | 9      | Sun, May 01, 2022       | Going to production                             | Barak Korren    |
 | 10     | Sun, May 08, 2022       | AMA - Being a software engineer in the industry | _(all mentors)_ |
-| **11** | **Sun, May 22, 2022**   | **Final Project Demo and course retrospective** | -               |
+| **11** | **Sun, May 15, 2022**   | **Final Project Demo and course retrospective** | -               |
 
 ## Final Grade
 
