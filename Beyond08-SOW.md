@@ -106,6 +106,19 @@ __Note:__  Team information sharing is recommended, it will enable each
     team project and Vagrant to bring up the development environment on their
     machines.
 
+**Demo content:**
+
+1. Team members introduction  
+short academic & personal bio
+2. Project name, idea, goals and plans  
+work division mapped to team members  
+3. Present project landing page
+4. Work agreements
+    * Contributing doc.
+    * Meetings routines and participants list. 
+    * Communications channels with team mates and mentors.
+
+
 ### Demo 2 (December 4th): Data model and business logic
 
 The purpose of this demo is to show your application's data model and data
@@ -214,23 +227,29 @@ After the first 2 weeks, you'll be divided into teams - each team with 4-6 stude
 
 Each team will have the following mentors:
 
-* Team 1: Nati Friedman, TBD 
-* Team 2: Kobi Hakimi, TBD 
-* Team 3: Omer Amsalem, TBD
-* Team 4: Avi Biton, TBD
+* Team 1: Nati Friedman, Shay Vatarescu, Alem Kasem, Lior Noy
+* Team 2: Kobi Hakimi, Noam Finkelstein, Benny Powers, Moshe Sheena
+* Team 3: Omer Amsalem, Nofar Alfassi, Benny Rochwerger,Yftach Herzog
+* Team 4: Avi Biton, Yariv Rachmani,Nimer Naamneh, Nitzan Mordechai
 
 ## Project ideas
 
-You can pick from the ideas below or think up your own.
+You can consider below ideas or think up your own.
 
-* Platform for freelancers to offer their services
-* P2P Lending service
 * Dating website
 * Drop shipping web store - selling other people's products on your website
-* Platform for finding part-time jobs for students
 * Personal password maintenance application
 * Course certificate generation and distribution platform
 * An online riddle or math game
+
+Avoid the following ideas:
+
+* Platform for finding part-time jobs for students.
+* Platform for academic courses and grading.
+* Platform for finding/recruiting jobs/employess.
+* Platform for for finding roomates or appartments.
+* Platform for freelancers to offer their services.
+* P2P Lending service
 
 __Note:__ The project used as a learning platform, it should not be
  unique or amazing, it could defeat learning process and goals.
