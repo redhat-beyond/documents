@@ -239,26 +239,27 @@ __Note:__ The project used as a learning platform, it should not be
 
 | #      | Date                  | Topic(s)                            | Lecturer       | Location |
 |--------|-----------------------|-------------------------------------|----------------|----------|
-| -      | Wed, Oct 19, 2022     | First challenge hand-off and student selection| Barak Korren |Online/Remote|
-| 1      | Sun, Oct 23, 2022     | Project Architecture overview.      | Barak Korren   |Tel Hai College|
-| **-**  | **Fri, Oct 28, 2022** | **First challenge submission date** | _(Self work)_  |          |
+| -      | Wed, Oct 19, 2022     | First challenge hand-off and student selection (30m pre-course session)| Barak Korren |Online/Remote|
+| 1      | Sun, Oct 23, 2022     | General introduction                    | Barak Korren   |Tel Hai College|
+|        |                     | Project Architecture overview      | Barak Korren   |Tel Hai College|
+| **-**  | **Fri, Oct 28, 2022** | **First challenge submission date** | **_(Self work)_**  |          |
 | 2      | Sun, Oct 30, 2022     | Introduction to Python              | Kobi Hakimi    |Online/Remote|
-| -      |                       | Second challenge hand-off (~30m session)| Barak Korren   |          |
-| **-**  | **Fri, Nov 04, 2022** | **Second challenge submission date**| _(Self work)_  |          |
+|       |                       | Second challenge hand-off | Barak Korren   |          |
+| **-**  | **Fri, Nov 04, 2022** | **Second challenge submission date**| **_(Self work)_**  |          |
 | 3      | Sun, Nov 06, 2022     | Databases, data model and the ORM   | Omer Amsalem   |Online/Remote|
 |        |                       | Project teams announcement          |                |          |
 | **4**  | **Sun, Nov 13, 2022** | **Demo 1: Development environment** | -              |Online/Remote|
 | 5      | Sun, Nov 20, 2022     | Business logic and Testing          | Eddy Haas      |Online/Remote|
 | 6      | Sun, Nov 27, 2022     | _(Open slot)_                       |                |          |
-| **7**  | **Sun, Dec 04, 2022** | **Demo 2: Data Model and business logic**| -              |Online/Remote|
-| -      | Dec 05 - Dec 08       | Performance review week             | -              |          |
+| **7**  | **Sun, Dec 04, 2022** | **Demo 2: Data Model and business logic**| **-**              |**Online/Remote**|
+| -      | **Dec 05 - Dec 08**       | **Performance review week**             | **-**              |          |
 | 8      | Sun, Dec 11, 2022     | UI: Routes, Views and Templates     | Yariv Rachmani |Online/Remote|
 | 9      | Sun, Dec 18, 2022     | Frontend, FE, Intro: FE tecnologies | Benny Powers   |Online/Remote|
 | -      | Sun, Dec 25, 2022     | _(College is closed)_               | -              |          |
-| **10** | **Sun, Jan 01, 2023** | **Demo 3: UI and user workflow**    | -              |Online/Remote|
+| **10** | **Sun, Jan 01, 2023** | **Demo 3: UI and user workflow**    | **-**              |**Online/Remote**|
 | 11     | Sun, Jan 08, 2023     | Going to production                 | Benny Powers   |Online/Remote|
 | 12     | Sun, Jan 15, 2022     | AMA - Ask Me Anything, Software engineer in the industry|_(all mentors)_| RH office|
-| **13** | **Sun, Jan 22, 2022** | **Final Demo: demo & retrospective**| -              |Marganit BLDG|
+| **13** | **Sun, Jan 22, 2022** | **Final Demo: demo & retrospective**| -              |**Marganit BLDG**|
 
 ## Final Grade
 
