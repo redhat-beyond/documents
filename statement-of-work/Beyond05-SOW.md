@@ -1,3 +1,7 @@
+---
+layout: layouts/base.html
+permalink: /05/statement-of-work/index.html
+---
 # Beyond 05
 
 # Statement of Work (SOW)

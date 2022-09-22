@@ -1,7 +1,11 @@
-# Red Hat Beyond 07
-
-Statement of Work (SOW)
-***
+---
+layout: layouts/base.html
+permalink: /statement-of-work/index.html
+eleventyNavigation:
+  key: Statement of Work
+  order: 3
+---
+# Red Hat Beyond 08 Statement of Work (SOW)
 
 ## Pre-requirements
 
@@ -22,23 +26,29 @@ them up. The more you know the easier it will be.
 * Testing- unit tests and functional tests with pytest
 * Virtualization - Spin up a VM using Vagrant and VirtualBox
 * Databases - Basic familiarity with database concepts
+* Data modeling
+    * ERD - Entity Relationships Diagrams
+    * DFD - Data Flow Diagram
 
 ## Milestones
 
-### Demo 1 (March 13th): Project selection and setting up a DEV environment
+### Demo 1 (November 13th): Project selection and setting up a DEV environment
 
-The main purpose of the demo is to motivate you to come together as a project
-development team and establish your shared working environment and process. As
-such, we will monitor when and how you do the work of preparing for the demo,
-and the process is as important (If not more so) as the final results you will
-present.
+Main project goal:
+As a developer I would like to contribute/collaborate within a distributed
+ development team.
+To achieve the goal, the team sets up shared working environment and practice
+ shared work processes.
+Mentors will advise how to prepare for the demo.
+
+{% alert %}The process is as important as the final project products.{% endalert %}
 
 As part of the preparation for this demo you should establish a new 
 **public** channel in the Beyond Slack workspace for communications inside 
 the team and with its mentors, get to know your teammates and your mentors 
 and come up with the basic idea and name for your project.  
 
-**Technical requirements**
+#### Technical Requirements
 
 To be ready for the demo, your project should include the following elements:
 
@@ -59,10 +69,10 @@ To be ready for the demo, your project should include the following elements:
 Note that all these topics have been covered by the introduction exercise you
 have been given.
 
-**Work division**
+#### Work Division
 
 Ensure that every member of your team plays an active role in preparing for
-the demo, we require that you divide the work between you in the following way:
+the demo, we recommend that you divide the work between you in the following way:
 
 1. Student1: vagrant
 2. Student2: bootstrap.sh
@@ -70,7 +80,10 @@ the demo, we require that you divide the work between you in the following way:
 4. Student4: Web page
 5. Student5: Documentation files + flake8
 
-**General guidelines**
+{% alert %}Team information sharing is recommended, it will enable each
+ team mate to maintain all the above aspects.{% endalert %}
+
+#### General Guidelines
 
 1. Spend some time planning your work, understanding the order in which things
    need to be done and the dependencies between the various tasks
@@ -97,12 +110,25 @@ the demo, we require that you divide the work between you in the following way:
     team project and Vagrant to bring up the development environment on their
     machines.
 
-### Demo 2 (April 3rd): Data model and business logic
+#### Demo Content
+
+1. Team members introduction  
+short academic & personal bio
+2. Project name, idea, goals and plans  
+work division mapped to team members  
+3. Present project landing page
+4. Work agreements
+    * Contributing doc.
+    * Meetings routines and participants list. 
+    * Communications channels with team mates and mentors.
+
+
+### Demo 2 (December 4th): Data model and business logic
 
 The purpose of this demo is to show your application's data model and data
 manipulation logic.
 
-Technical requirements
+#### Technical requirements
 
 1. For each feature you're planning to add to your project should include:
 
@@ -125,7 +151,7 @@ Technical requirements
     3. Present your data manipulation functions via the Django shell
     4. Show your test code and explain what you've tested
 
-**Work division**
+#### Work Division
 
 It is recommended that you divide the work in your team in a "vertical" way -
 this means that each team member will have one or more project features assigned
@@ -141,7 +167,7 @@ Working in this way will provide several benefits:
 2. It can reduce the amount of Git conflicts you may encounter as you work on
    your projects because different features can live in different files.
 
-### Performance Review (between April 3rd and April 7th) :
+### Performance Review (between December 5th to December 8th) :
 
 The student team mentors will set up a personal 10-minute meeting with each of
 the students in their team and give them feedback about their performance in the
@@ -150,12 +176,12 @@ you should take the time to think about how you perceive your own performance,
 how is that different from how the mentors see it and why. Take the opportunity
 to learn how to improve!
 
-### Demo 3 (Apr 24th): Control logic and UI
+### Demo 3 (January 1st 2023): Control logic and UI
 
 The purpose of this demo is to review your ability to implement the application
 workflow and UI logic and implement automated tests for it.
 
-**Technical Requirements**
+#### Technical Requirements
 
 1. Complete the implementation of one or more features of your application,
    including UI and backend logic. The features you implement should allow you
@@ -169,7 +195,7 @@ workflow and UI logic and implement automated tests for it.
    should cover all aspects of the feature's functionality including failure 
    scenarios, handling of invalid data and unauthorized access scenarios. 
 
-**Demo contents**
+#### Demo Contents
 
 Your demo presentation should include the following elements:
 
@@ -185,7 +211,7 @@ Your demo presentation should include the following elements:
     4. What aspects of the features you've written are not being tested?
 3. A demonstration of the application tests being run in GitHub actions.
 
-### Demo 4 (May 29th): Final Project Demo
+### Demo 4 (January 22nd 2023): Final Project Demo
 
 The purpose of this demo is to present your entire development process and 
 should include:
@@ -199,55 +225,64 @@ should include:
 6. Development challenges
 7. What did you learn
 
-## Division into project groups (till February 27th)
+## Division into project groups (till November 6th)
 
-After the first 2 weeks, you'll be divided into 5 teams.
+After the first 2 weeks, you'll be divided into teams - each team with 4-6 students.
 
 Each team will have the following mentors:
 
-* Team 1: Omer Amsalem, Micahel Mensherov, Or Mergi
-* Team 2: Yuval Kashtan, Shay Vatarescu, Adi Abramovich
-* Team 3: Kobi Hakimi, Benny Rochwerger, Nimer Naamneh
-* Team 4: Yariv Rachmani, Alem Kasem, Ronnie Rasoulli
-* Team 5: Nati Friedman, Avi Biton, Elyasaf Halle
+* Team 1: Nati Friedman, Shay Vatarescu, Alem Kasem, Lior Noy
+* Team 2: Kobi Hakimi, Noam Finkelstein, Benny Powers, Moshe Sheena
+* Team 3: Omer Amsalem, Nofar Alfassi, Benny Rochwerger,Yftach Herzog
+* Team 4: Avi Biton, Yariv Rachmani,Nimer Naamneh, Nitzan Mordechai
 
 ## Project ideas
 
-You can pick from the ideas below or think up your own.
+You can consider below ideas or think up your own.
 
-* Platform for freelancers to offer their services
-* P2P Lending service
 * Dating website
 * Drop shipping web store - selling other people's products on your website
-* Platform for finding part-time jobs for students
 * Personal password maintenance application
 * Course certificate generation and distribution platform
 * An online riddle or math game
 
+Avoid the following ideas:
+
+* Platform for finding part-time jobs for students.
+* Platform for academic courses and grading.
+* Platform for finding/recruiting jobs/employess.
+* Platform for for finding roomates or appartments.
+* Platform for freelancers to offer their services.
+* P2P Lending service
+
+{% alert %}The project used as a learning platform, it should not be
+ unique or amazing, it could defeat learning process and goals.{% endalert %}
+
 ## Syllabus (list of sessions)
 
-| #      | Date                    | Topic(s)                                        | Lecturer        |
-|--------|-------------------------|-------------------------------------------------|-----------------|
-| -      | Sun, Feb 06, 2022       | First challenge hand-off and student selection  | Barak Korren    |
-| 1      | Sun, Feb 13, 2022       | General Introduction                            | Barak Korren    |                                                   
-|        |                         | Project Architecture overview.                  | Barak Korren    | 
-| **-**  | **Fri, Feb 18, 2022**   | **First challenge submission date**             | _(Self work)_   |
-| -      | Sun, Feb 20, 2022       | Second challenge hand-off (~30m session)        | Barak Korren    |
-| **-**  | **Fri, Feb 25, 2022**   | **Second challenge submission date**            | _(Self work)_   |
-| 2      | Sun, Feb 27, 2022       | Introduction to Python                          | Kobi Hakimi     |
-|        |                         | Project teams announcement                      |                 |
-| 3      | Sun, Mar 06, 2022       | Databases, data model and the ORM               | _(TBD)_         |
-| **4**  | **Sun, Mar 13, 2022**   | **Demo 1: Development environment**             | -               |
-| 5      | Sun, Mar 20, 2022       | Business logic and Testing                      | Eddy Haas       |
-| 6      | Sun, Mar 27, 2022       | UI: Routes, Views and Templates                 | Yariv Rachmani  |
-| **7**  | **Sun, Apr 03, 2022**   | **Demo 2: Data Model and business logic**       | -               |
-| -      | Apr 03 - Apr 07         | Performance review week                         | -               |
-| -      | Sun, Apr 10, 2022       | _(Passover vacation)_                           | -               |
-| -      | Sun, Apr 17, 2022       | _(Passover vacation)_                           | -               |
-| **8**  | **Sun, Apr 24th, 2022** | **Demo 3: UI and user workflow**                | -               |
-| 9      | Sun, May 01, 2022       | Going to production                             | Barak Korren    |
-| 10     | Sun, May 08, 2022       | AMA - Being a software engineer in the industry | _(all mentors)_ |
-| **11** | **Sun, May 29, 2022**   | **Final Project Demo and course retrospective** | -               |
+| #      | Date                  | Topic(s)                                                                | Lecturer           | Location        |
+|--------|-----------------------|-------------------------------------------------------------------------|--------------------|-----------------|
+| -      | Wed, Oct 19, 2022     | First challenge hand-off and student selection (30m pre-course session) | Barak Korren       |Online/Remote    |
+| 1      | Sun, Oct 23, 2022     | General introduction                                                    | Barak Korren       |Tel Hai College  |
+|        |                       | Project Architecture overview                                           | Barak Korren       |Tel Hai College  |
+| **-**  | **Fri, Oct 28, 2022** | **First challenge submission date**                                     | **_(Self work)_**  |                 |
+| 2      | Sun, Oct 30, 2022     | Introduction to Python                                                  | Kobi Hakimi        |Online/Remote    |
+|        |                       | Second challenge hand-off                                               | Barak Korren       |                 |
+| **-**  | **Fri, Nov 04, 2022** | **Second challenge submission date**                                    | **_(Self work)_**  |                 |
+| 3      | Sun, Nov 06, 2022     | Databases, data model and the ORM                                       | Omer Amsalem       |Online/Remote    |
+|        |                       | Project teams announcement                                              |                    |                 |
+| **4**  | **Sun, Nov 13, 2022** | **Demo 1: Development environment**                                     | -                  |Online/Remote    |
+| 5      | Sun, Nov 20, 2022     | Business logic and Testing                                              | Eddy Haas          |Online/Remote    |
+| 6      | Sun, Nov 27, 2022     | _(Open slot)_                                                           |                    |                 |
+| **7**  | **Sun, Dec 04, 2022** | **Demo 2: Data Model and business logic**                               | **-**              |**Online/Remote**|
+| -      | **Dec 05 - Dec 08**   | **Performance review week**                                             | **-**              |                 |
+| 8      | Sun, Dec 11, 2022     | UI: Routes, Views and Templates                                         | Yariv Rachmani     |Online/Remote    |
+| 9      | Sun, Dec 18, 2022     | Frontend, FE, Intro: FE tecnologies                                     | Benny Powers       |Online/Remote    |
+| -      | Sun, Dec 25, 2022     | _(College is closed)_                                                   | -                  |                 |
+| **10** | **Sun, Jan 01, 2023** | **Demo 3: UI and user workflow**                                        | **-**              |**Online/Remote**|
+| 11     | Sun, Jan 08, 2023     | Going to production                                                     | Benny Powers       |Online/Remote    |
+| 12     | Sun, Jan 15, 2022     | AMA - Ask Me Anything, Software engineer in the industry                | _(all mentors)_    | RH office       |
+| **13** | **Sun, Jan 22, 2022** | **Final Demo: demo & retrospective**                                    | -                  |**Marganit BLDG**|
 
 ## Final Grade
 
@@ -269,8 +304,8 @@ The grades are assigned to each student based on the following factors:
   * Does code meet the quality requirements defined by the mentors
   
 The grade is made both of objective measures, obtained by monitoring GitHub and
-Slack, and well as subjective elements decided and agreed upon by the mentor 
-team.
+Slack, and well as subjective elements, bonus scores, decided and agreed upon by 
+ the mentors team, subjective elements could not affect negative scores.
 
 ## Guidelines for creating good PRs
 
@@ -283,7 +318,7 @@ team.
 
     1. If it's a frontend change it should contain also screenshots
 
-* Commit quality - a PR should have 1-5 commits where each one:
+* Commit quality - a PR should have at least 1 commit where each one:
 
     1. Contains a mostly self-contained code change
     2. Has a good commit message that meets
@@ -465,3 +500,10 @@ team.
 * [Technical debt](https://en.wikipedia.org/wiki/Technical_debt)
 * [Refactoring](https://refactoring.com)
 
+## Past semesters projects
+
+* Do not hesitate to take a look under past projects to understand better
+ and learn by
+live examples
+* Past semesters projects found under:
+  [redhat-beyond-projects](https://github.com/redhat-beyond)
