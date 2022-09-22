@@ -1,0 +1,10 @@
+{
+  "extends": "@patternfly/elements",
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "env": {
+    "node": true,
+    "commonjs": true
+  }
+}

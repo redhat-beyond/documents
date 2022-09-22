@@ -1,0 +1,69 @@
+---
+name: Deploy GH Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-pages:
+    runs-on: ubuntu-latest
+    name: Build site and deploy to GHPages
+    env:
+      ELEVENTY_PATH_PREFIX: '/${{ github.event.repository.name }}/'
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install node 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: npm
+
+      - name: Install project modules
+        run: npm ci
+
+      - name: Build site 1st attempt
+        continue-on-error: true
+        id: firstBuild
+        env:
+          SITE_GITHUB_TOKEN: "${{ secrets.SITE_GITHUB_TOKEN }}"
+        run: npm run build
+
+      - name: Build site 2nd attempt
+        if: steps.firstBuild.outcome == 'failure'
+        env:
+          SITE_GITHUB_TOKEN: "${{ secrets.SITE_GITHUB_TOKEN }}"
+        run: npm run build
+
+      - name: Configure git
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Checkout pages branch
+        run: |
+          git checkout gh-pages
+          git pull origin gh-pages
+
+      - name: Copy new files
+        run: cp -rf _site/* .
+
+      - name: Count changed
+        id: git_status
+        run: |
+            changedCount=$(git status --porcelain=v1 --short --untracked-files=all | wc -l)
+            echo "::set-output name=changedCount::$changedCount"
+
+      - name: Push generated site
+        if: steps.git_status.outputs.changedCount > 0
+        run: |
+          git add .
+          git commit -m "docs: deployed to gh-pages for ${{ github.ref }}"
+          git push origin gh-pages
+

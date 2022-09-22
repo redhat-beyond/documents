@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="{{ metadata.language }}"{{ (' dir="rtl"' | safe) if metadata.language == 'he' }}>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+    <meta name="generator" content="{{ eleventy.generator }}">
+
+    <link rel="preconnect" href="https://www.redhat.com">
+    <link rel="preconnect" href="https://static.redhat.com">
+    <link rel="shortcut icon" href="https://www.redhat.com/misc/favicon.ico" type="image/x-icon">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+
+    <link rel="stylesheet" href="https://static.redhat.com/libs/redhat/redhat-font/2/webfonts/red-hat-font.css" media="all">
+    <link rel="stylesheet" href="{{ '/assets/css/rhds.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/prism.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/prism-diff.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/@rhds/elements/elements/rh-footer/rh-footer-lightdom.css' | url }}">
+    <noscript><link rel="stylesheet" href="{{ '/assets/css/noscript.css' | url }}"></noscript>
+
+    <script type="importmap">{{ importMap | dump | safe }}</script>
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.9/dist/es-module-shims.js"></script>
+    <script type="module">{% if imports %}{% for import in imports %}
+      import '{{ import }}';{% endfor %}{%else%}
+      import '@rhds/elements';{%endif%}
+    </script>
+  </head>
+  <body>
+    <header id="main-header">
+      <h1 class="home">
+        <a href="{{ '/' | url }}">
+          <img src="{{ 'https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-dark.svg' | url }}" alt="{{ metadata.title }}"/>
+        </a>
+      </h1>
+    </header>
+
+    <aside id="main-sidebar">
+      <nav>{% set navPages = collections.all | eleventyNavigation %}
+        <ul>{% macro renderNavListItem(entry) -%}
+        <li class="{% if entry.url == page.url %} active {% endif %}{%
+                      if (entry.children | hasUrl(page.url)) %} has-active {% endif %}{%
+                      if (entry.children.length) -%} expandable {% endif %}">
+          <a href="{{ entry.url | url }}">{{ entry.title }}</a>{%- if entry.children.length -%}
+          <ul>
+            {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+          </ul>{%- endif -%}
+        </li>{%- endmacro %}
+        {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+        </ul>
+      </nav>
+    </aside>
+
+    <main
+      {% if templateClass %}class="{{ templateClass }}"{% endif %}
+      {% if lang %}lang="{{ lang }}"{% endif %}
+      {% if dir %}dir="{{ dir }}"{% endif %}>
+      {{ content | safe }}
+    </main>
+
+    {% rhfooter %}{% endrhfooter %}
+
+    <template id="copy-tpl">
+      <button class="copy-btn">Copy</button>
+    </template>
+    <!-- Current page: {{ page.url | url }} -->
+    <script type="module">
+      const template = document.getElementById('copy-tpl');
+
+      async function handleCopyClick(evt) {
+        const [{ innerText }] = evt.target.parentElement.children;
+        await navigator.clipboard.writeText(innerText);
+      }
+
+      for (const block of document.querySelectorAll('pre[class^="language-"]')) {
+        if (!block.closest('.inline-type') && !block.querySelector('.copy-btn')) {
+          block.append(template.content.cloneNode(true));
+          block.querySelector('button.copy-btn').addEventListener('click', handleCopyClick);
+          for (const node of block.childNodes) {
+            if (node instanceof Text && !node.textContent.trim()) {
+              node.remove();
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
