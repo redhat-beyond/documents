@@ -95,6 +95,29 @@
       </rh-global-footer>
     </rh-footer>
 
+    <template id="copy-tpl">
+      <button class="copy-btn">Copy</button>
+    </template>
     <!-- Current page: {{ page.url | url }} -->
+    <script type="module">
+      const template = document.getElementById('copy-tpl');
+
+      async function handleCopyClick(evt) {
+        const [{ innerText }] = evt.target.parentElement.children;
+        await navigator.clipboard.writeText(innerText);
+      }
+
+      for (const block of document.querySelectorAll('pre[class^="language-"]')) {
+        if (!block.closest('.inline-type') && !block.querySelector('.copy-btn')) {
+          block.append(template.content.cloneNode(true));
+          block.querySelector('button.copy-btn').addEventListener('click', handleCopyClick);
+          for (const node of block.childNodes) {
+            if (node instanceof Text && !node.textContent.trim()) {
+              node.remove();
+            }
+          }
+        }
+      }
+    </script>
   </body>
 </html>

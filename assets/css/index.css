@@ -208,3 +208,33 @@ img {
   max-width: 100%;
 }
 
+pre[class*="language-"] {
+  position: relative;
+}
+
+pre[class*="language-"]:hover .copy-btn,
+pre[class*="language-"]:focus-within .copy-btn,
+pre[class*="language-"] .copy-btn:hover,
+pre[class*="language-"] .copy-btn:focus {
+  opacity: 1;
+}
+
+pre[class*="language-"] .copy-btn {
+  color: black;
+  box-sizing: border-box;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  user-select: none;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 5px 10px;
+  font-size: 0.8em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 0.15rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
