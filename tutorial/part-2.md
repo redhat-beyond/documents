@@ -147,8 +147,8 @@ On Linux/Mac:
 cd ~/src/github.com/usr1/beyond-tutorial
 ```
 
-{% alert %}When you type the command above, put in your GitHub account name
-instead of `usr1`.{% alert %}
+{% rhalert %}When you type the command above, put in your GitHub account name
+instead of `usr1`.{% endrhalert %}
 
 We need to ensure out `main` branch is up to date and then create a new
 feature branch:
@@ -302,14 +302,14 @@ running the following command:
 ls -l /vagrant
 ```
 
-{% alert %}Since our virtual machine is running Linux, we’re using the Linux
-command for listing the files.{% endalert %}
+{% rhalert %}Since our virtual machine is running Linux, we’re using the Linux
+command for listing the files.{% endrhalert %}
 
 We can exit the virtual machine and get back to our own computer by
 typing the `exit` command, or by pressing <kbd>CTRL</kbd>+<kbd>D</kbd>.
 
-{% endalert %}if the `/vagrant` directory was not found, see in Task 8 below how
-to configure vagrant to add it.{% endalert %}
+{% rhalert %}if the `/vagrant` directory was not found, see in Task 8 below how
+to configure vagrant to add it.{% endrhalert %}
 
 ## Task 7: Shutting Down the VM
 

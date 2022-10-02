@@ -29,9 +29,9 @@ pipenv install --dev flake8
 
 We add the `--dev` option to tell Pipenv that Flake8 is a development
 environment dependency. That way we can avoid having it installed in production
-environments. {% alert %}This will add `flake8` to the `dev_packages` section of
+environments. {% rhalert %}This will add `flake8` to the `dev_packages` section of
 the `Pipfile`, which is called when using `pipenv sync --dev` (see example
-below{% endalert %}.
+below{% endrhalert %}.
 
 ## Task 2: Inspect our code with Flake8
 
@@ -98,13 +98,13 @@ We use a Fedora 32 container to get a running environment that is similar to
 what we've set up in Vagrant. GitHub actions make it very easy to use
 containers by requiring just a single YAML line to activate them.
 
-{% alert %}<abbr title="yet another markup language">YAML</abbr> is an *indentation sensitive* language. Indentation is used to
+{% rhalert %}<abbr title="yet another markup language">YAML</abbr> is an *indentation sensitive* language. Indentation is used to
 specify which configuration elements are contained within other elements. When
 you create the YAML file for your project, make sure you indent the lines in
 exactly the same way as they appear above. Alse be careful about having your
 text editor automatically introduce tab characters into the file. Most text
 editors have various configuration options that deal with their behaviour with
-regards to tab characters.{% endalert %}
+regards to tab characters.{% endrhalert %}
 
 ## Task 4: Commit the files and send a PR
 

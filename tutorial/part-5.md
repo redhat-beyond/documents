@@ -100,9 +100,9 @@ class Message(models.Model):
       date = models.DateTimeField(default=timezone.now)
 ```
 
-{% alert %}Like YAML, Python is an *indentation-sensitive* language. Make sure you
+{% rhalert %}Like YAML, Python is an *indentation-sensitive* language. Make sure you
 keep line indentation in your files similar to what you see in the examples
-here and consistent.{% endalert %}
+here and consistent.{% endrhalert %}
 
 ## Task 4: Creating database migrations
 
@@ -123,8 +123,8 @@ pipenv run python manage.py makemigrations msgboard
 The command will create the `msgboard/migrations/0001_initial.py` file. If we
 look inside it we can see the command for creating our database table.
 
-{% alert %}If we did not register our app as specified in [Task 2][task2] above, the
-command will fail with the following error message:{% endalert %}
+{% rhalert %}If we did not register our app as specified in [Task 2][task2] above, the
+command will fail with the following error message:{% endrhalert %}
 
 ```
 No installed app with label 'msgboard'.
@@ -282,11 +282,11 @@ Now we can create the `msgboard/templates/msgboard/board.html` template file:
 </html>{%endraw%}
 ```
 
-{% alert %}
+{% rhalert %}
 This file contains both HTML elements (e.g. `<body>` or `<ol>`) as well
 as liquid template tags (e.g. `{%raw%}{{ message.author }}{%endraw%}` or
 `{%raw%}{% for message in messages %}{%endraw%}`).
-{% endalert %}
+{% endrhalert %}
 
 ### Creating the Route
 
@@ -476,9 +476,9 @@ vagrant destroy
 vagrant up
 ```
 
-{% alert %}To properly test everything you need to also delete the `db.sqlite3` file
+{% rhalert %}To properly test everything you need to also delete the `db.sqlite3` file
 before bringing the VM up again. Otherwise the same file will be reused by the
-newly started VM, and the migrations will be skipped.{% endalert %}
+newly started VM, and the migrations will be skipped.{% endrhalert %}
 
 When everything works well, the vagrant up output should show the migrations
 running before the application server is started.

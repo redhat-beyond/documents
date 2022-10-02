@@ -137,7 +137,7 @@ version was installed with the following command:
 pipenv run python -m django --version
 ```
 
-{% alert state="warning", title="Warning:" %}Any Python-based command we run in our project needs to be run via
+{% rhalert state="warning", title="Warning:" %}Any Python-based command we run in our project needs to be run via
 Pipenv in order to have access to the dependencies it manages for us. If
 we try to run the command above without the pipenv run part, it will
 fail with an error like the following:
@@ -145,7 +145,7 @@ fail with an error like the following:
 ```
 /usr/bin/python: No module named django
 ```
-{% endalert %}
+{% endrhalert %}
 
 ## Task 4: Bootstrapping a Django website
 
@@ -241,11 +241,11 @@ To run our skeleton application, we use the following command:
 pipenv run python manage.py runserver 0.0.0.0:8000
 ```
 
-{% alert %}By default, Django tries to be secure when it runs in development mode
+{% rhalert %}By default, Django tries to be secure when it runs in development mode
 and blocks connections that do not originate from the machine it runs on. Since
 we want to connect to Django from our host computer, which is considered to be
 a remote machine from the virtual machine’s point of view, we need to add the
-`0.0.0.0:8000` parameter to runserver.{% endalert %}
+`0.0.0.0:8000` parameter to runserver.{% endrhalert %}
 
 The application server will start up, print a few messages like the
 following, and then stop and listen for user interaction.
@@ -402,8 +402,8 @@ After running `vagrant up` the application can be accessed at:
 
 > http://127.0.0.1:8000/
 
-{% alert %}Most changes had been auto-generated, only `Vagrantfile` and
-`setup.sh` had been edited manually.{% endalert %}
+{% rhalert %}Most changes had been auto-generated, only `Vagrantfile` and
+`setup.sh` had been edited manually.{% endrhalert %}
 
 [1]: https://github.com/pypa/pipenv
 [2]: https://www.djangoproject.com/

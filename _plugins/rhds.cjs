@@ -115,7 +115,8 @@ module.exports = function(eleventyConfig) {
     return children.some(x => isActive(x));
   });
 
-  eleventyConfig.addPairedShortcode('alert', function(content, {
+  /** Render a Red Hat Alert */
+  eleventyConfig.addPairedShortcode('rhalert', function(content, {
     state = 'info',
     title = 'Note:',
   } = {}) {

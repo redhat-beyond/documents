@@ -169,10 +169,10 @@ for interacting with the computer. It works a little bit like a chat
 where you type in text and the computer prints back the results of the
 command you've typed.
 
-{% alert %}Command-line interfaces might be frightening at first, but they
+{% rhalert %}Command-line interfaces might be frightening at first, but they
 are a very efficient way to interact with the computer and many
 development tools, including all the tools we use in this course, are
-built for use from command line interfaces.{% endalert %}
+built for use from command line interfaces.{% endrhalert %}
 
 Different operating systems have different command line interfaces, and most
 operating systems these days have several different kinds of command line
@@ -243,10 +243,10 @@ git config --global user.name "John Doe"
 ```
 (Please fill-in you actual name and email address)
 
-{% alert %}we add quotes to ensure special characters included in the name
+{% rhalert %}we add quotes to ensure special characters included in the name
 and email address such as space and the "@" sign do not influence the
 execution of the command. They are not included in the final details
-seen by Git.{% endalert %}
+seen by Git.{% endrhalert %}
 
 ## Task 6: Clone your Remote Repository
 
@@ -347,8 +347,8 @@ systems):
 cd beyond-tutorial
 ```
 
-{% alert %}To avoid having to type long directory names, you can type the first
-few letters of the name and then hit the <kbd>tab</kbd> key.{% endalert %}
+{% rhalert %}To avoid having to type long directory names, you can type the first
+few letters of the name and then hit the <kbd>tab</kbd> key.{% endrhalert %}
 
 If we want to look the contents of the directory we just went into,
 using the `dir` command in Windows or the `ls -l` command in Linux/Mac, we
@@ -365,12 +365,12 @@ Windows):
 2 Dir(s) 451,720,884,224 bytes free
 ```
 
-{% alert %}The `.gitignore` file will not be shown by default on Linux/Mac
+{% rhalert %}The `.gitignore` file will not be shown by default on Linux/Mac
 because files which start with a dot are considered to be hidden. We can
 see the file if we add the `-a` option to `ls`, but then we will also see
 the hidden `.git` directory where Git stores the extra information about
 commit, branches and other things. To see the hidden directory on
-Windows we can add the `/a` option to `dir`.{% endalert %}
+Windows we can add the `/a` option to `dir`.{% endrhalert %}
 
 ## Task 7: Editing, Comitting and Pushing
 
@@ -408,13 +408,13 @@ must first go into it by running the following command:
 git checkout main
 ```
 
-{% alert %}
+{% rhalert %}
 -   If we're already in the `main` branch this command will simply tell us
     so and do nothing
 -   If we made any changes to local files in the repository without
     committing them, this command might fail and display an error
     message
-{% endalert %}
+{% endrhalert %}
 
 To fetch changes from the remote GitHub repository, we run the following
 command:
@@ -657,9 +657,9 @@ In this log we can see:
 -   The fact that we're currently working on the `update-readme` branch,
     this is shown by the fact that the `HEAD` pointer points to it.
 
-{% alert %}Any information that is shown about the `origin` repository or any
+{% rhalert %}Any information that is shown about the `origin` repository or any
 other remote repository (We can configure more of them), is correct to
-the last time we've run a `git fetch` or a `git pull` command.{% endalert %}
+the last time we've run a `git fetch` or a `git pull` command.{% endrhalert %}
 
 When we push our branch and create a PR, all the commits we see between
 the top commit of the `origin/main` branch, and the to commit of the

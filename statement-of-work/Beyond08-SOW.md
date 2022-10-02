@@ -41,7 +41,7 @@ To achieve the goal, the team sets up shared working environment and practice
  shared work processes.
 Mentors will advise how to prepare for the demo.
 
-{% alert %}The process is as important as the final project products.{% endalert %}
+{% rhalert %}The process is as important as the final project products.{% endrhalert %}
 
 As part of the preparation for this demo you should establish a new 
 **public** channel in the Beyond Slack workspace for communications inside 
@@ -80,8 +80,8 @@ the demo, we recommend that you divide the work between you in the following way
 4. Student4: Web page
 5. Student5: Documentation files + flake8
 
-{% alert %}Team information sharing is recommended, it will enable each
- team mate to maintain all the above aspects.{% endalert %}
+{% rhalert %}Team information sharing is recommended, it will enable each
+ team mate to maintain all the above aspects.{% endrhalert %}
 
 #### General Guidelines
 
@@ -255,8 +255,8 @@ Avoid the following ideas:
 * Platform for freelancers to offer their services.
 * P2P Lending service
 
-{% alert %}The project used as a learning platform, it should not be
- unique or amazing, it could defeat learning process and goals.{% endalert %}
+{% rhalert %}The project used as a learning platform, it should not be
+ unique or amazing, it could defeat learning process and goals.{% endrhalert %}
 
 ## Syllabus (list of sessions)
 
