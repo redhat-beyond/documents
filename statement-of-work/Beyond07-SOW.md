@@ -1,3 +1,7 @@
+---
+layout: layouts/base.html
+permalink: /07/statement-of-work/index.html
+---
 # Red Hat Beyond 07
 
 Statement of Work (SOW)

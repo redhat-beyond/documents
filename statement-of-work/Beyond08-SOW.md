@@ -1,7 +1,11 @@
-# Red Hat Beyond 08
-
-Statement of Work (SOW)
-***
+---
+layout: layouts/base.html
+permalink: /statement-of-work/index.html
+eleventyNavigation:
+  key: Statement of Work
+  order: 3
+---
+# Red Hat Beyond 08 Statement of Work (SOW)
 
 ## Pre-requirements
 
@@ -30,21 +34,21 @@ them up. The more you know the easier it will be.
 
 ### Demo 1 (November 13th): Project selection and setting up a DEV environment
 
-Main project goal: 
+Main project goal:
 As a developer I would like to contribute/collaborate within a distributed
  development team.
 To achieve the goal, the team sets up shared working environment and practice
  shared work processes.
 Mentors will advise how to prepare for the demo.
 
-__Note:__  The process is as important as the final project products.
+{% rhalert %}The process is as important as the final project products.{% endrhalert %}
 
 As part of the preparation for this demo you should establish a new 
 **public** channel in the Beyond Slack workspace for communications inside 
 the team and with its mentors, get to know your teammates and your mentors 
 and come up with the basic idea and name for your project.  
 
-**Technical requirements**
+#### Technical Requirements
 
 To be ready for the demo, your project should include the following elements:
 
@@ -65,7 +69,7 @@ To be ready for the demo, your project should include the following elements:
 Note that all these topics have been covered by the introduction exercise you
 have been given.
 
-**Work division**
+#### Work Division
 
 Ensure that every member of your team plays an active role in preparing for
 the demo, we recommend that you divide the work between you in the following way:
@@ -76,10 +80,10 @@ the demo, we recommend that you divide the work between you in the following way
 4. Student4: Web page
 5. Student5: Documentation files + flake8
 
-__Note:__  Team information sharing is recommended, it will enable each
- team mate to maintain all the above aspects.
+{% rhalert %}Team information sharing is recommended, it will enable each
+ team mate to maintain all the above aspects.{% endrhalert %}
 
-**General guidelines**
+#### General Guidelines
 
 1. Spend some time planning your work, understanding the order in which things
    need to be done and the dependencies between the various tasks
@@ -106,7 +110,7 @@ __Note:__  Team information sharing is recommended, it will enable each
     team project and Vagrant to bring up the development environment on their
     machines.
 
-**Demo content:**
+#### Demo Content
 
 1. Team members introduction  
 short academic & personal bio
@@ -124,7 +128,7 @@ work division mapped to team members
 The purpose of this demo is to show your application's data model and data
 manipulation logic.
 
-Technical requirements
+#### Technical requirements
 
 1. For each feature you're planning to add to your project should include:
 
@@ -147,7 +151,7 @@ Technical requirements
     3. Present your data manipulation functions via the Django shell
     4. Show your test code and explain what you've tested
 
-**Work division**
+#### Work Division
 
 It is recommended that you divide the work in your team in a "vertical" way -
 this means that each team member will have one or more project features assigned
@@ -177,7 +181,7 @@ to learn how to improve!
 The purpose of this demo is to review your ability to implement the application
 workflow and UI logic and implement automated tests for it.
 
-**Technical Requirements**
+#### Technical Requirements
 
 1. Complete the implementation of one or more features of your application,
    including UI and backend logic. The features you implement should allow you
@@ -191,7 +195,7 @@ workflow and UI logic and implement automated tests for it.
    should cover all aspects of the feature's functionality including failure 
    scenarios, handling of invalid data and unauthorized access scenarios. 
 
-**Demo contents**
+#### Demo Contents
 
 Your demo presentation should include the following elements:
 
@@ -251,34 +255,34 @@ Avoid the following ideas:
 * Platform for freelancers to offer their services.
 * P2P Lending service
 
-__Note:__ The project used as a learning platform, it should not be
- unique or amazing, it could defeat learning process and goals.
+{% rhalert %}The project used as a learning platform, it should not be
+ unique or amazing, it could defeat learning process and goals.{% endrhalert %}
 
 ## Syllabus (list of sessions)
 
-| #      | Date                  | Topic(s)                            | Lecturer       | Location |
-|--------|-----------------------|-------------------------------------|----------------|----------|
-| -      | Wed, Oct 19, 2022     | First challenge hand-off and student selection (30m pre-course session)| Barak Korren |Online/Remote|
-| 1      | Sun, Oct 23, 2022     | General introduction                    | Barak Korren   |Tel Hai College|
-|        |                     | Project Architecture overview      | Barak Korren   |Tel Hai College|
-| **-**  | **Fri, Oct 28, 2022** | **First challenge submission date** | **_(Self work)_**  |          |
-| 2      | Sun, Oct 30, 2022     | Introduction to Python              | Kobi Hakimi    |Online/Remote|
-|       |                       | Second challenge hand-off | Barak Korren   |          |
-| **-**  | **Fri, Nov 04, 2022** | **Second challenge submission date**| **_(Self work)_**  |          |
-| 3      | Sun, Nov 06, 2022     | Databases, data model and the ORM   | Omer Amsalem   |Online/Remote|
-|        |                       | Project teams announcement          |                |          |
-| **4**  | **Sun, Nov 13, 2022** | **Demo 1: Development environment** | -              |Online/Remote|
-| 5      | Sun, Nov 20, 2022     | Business logic and Testing          | Eddy Haas      |Online/Remote|
-| 6      | Sun, Nov 27, 2022     | _(Open slot)_                       |                |          |
-| **7**  | **Sun, Dec 04, 2022** | **Demo 2: Data Model and business logic**| **-**              |**Online/Remote**|
-| -      | **Dec 05 - Dec 08**       | **Performance review week**             | **-**              |          |
-| 8      | Sun, Dec 11, 2022     | UI: Routes, Views and Templates     | Yariv Rachmani |Online/Remote|
-| 9      | Sun, Dec 18, 2022     | Frontend, FE, Intro: FE tecnologies | Benny Powers   |Online/Remote|
-| -      | Sun, Dec 25, 2022     | _(College is closed)_               | -              |          |
-| **10** | **Sun, Jan 01, 2023** | **Demo 3: UI and user workflow**    | **-**              |**Online/Remote**|
-| 11     | Sun, Jan 08, 2023     | Going to production                 | Benny Powers   |Online/Remote|
-| 12     | Sun, Jan 15, 2022     | AMA - Ask Me Anything, Software engineer in the industry|_(all mentors)_| RH office|
-| **13** | **Sun, Jan 22, 2022** | **Final Demo: demo & retrospective**| -              |**Marganit BLDG**|
+| #      | Date                  | Topic(s)                                                                | Lecturer           | Location        |
+|--------|-----------------------|-------------------------------------------------------------------------|--------------------|-----------------|
+| -      | Wed, Oct 19, 2022     | First challenge hand-off and student selection (30m pre-course session) | Barak Korren       |Online/Remote    |
+| 1      | Sun, Oct 23, 2022     | General introduction                                                    | Barak Korren       |Tel Hai College  |
+|        |                       | Project Architecture overview                                           | Barak Korren       |Tel Hai College  |
+| **-**  | **Fri, Oct 28, 2022** | **First challenge submission date**                                     | **_(Self work)_**  |                 |
+| 2      | Sun, Oct 30, 2022     | Introduction to Python                                                  | Kobi Hakimi        |Online/Remote    |
+|        |                       | Second challenge hand-off                                               | Barak Korren       |                 |
+| **-**  | **Fri, Nov 04, 2022** | **Second challenge submission date**                                    | **_(Self work)_**  |                 |
+| 3      | Sun, Nov 06, 2022     | Databases, data model and the ORM                                       | Omer Amsalem       |Online/Remote    |
+|        |                       | Project teams announcement                                              |                    |                 |
+| **4**  | **Sun, Nov 13, 2022** | **Demo 1: Development environment**                                     | -                  |Online/Remote    |
+| 5      | Sun, Nov 20, 2022     | Business logic and Testing                                              | Eddy Haas          |Online/Remote    |
+| 6      | Sun, Nov 27, 2022     | _(Open slot)_                                                           |                    |                 |
+| **7**  | **Sun, Dec 04, 2022** | **Demo 2: Data Model and business logic**                               | **-**              |**Online/Remote**|
+| -      | **Dec 05 - Dec 08**   | **Performance review week**                                             | **-**              |                 |
+| 8      | Sun, Dec 11, 2022     | UI: Routes, Views and Templates                                         | Yariv Rachmani     |Online/Remote    |
+| 9      | Sun, Dec 18, 2022     | Frontend, FE, Intro: FE tecnologies                                     | Benny Powers       |Online/Remote    |
+| -      | Sun, Dec 25, 2022     | _(College is closed)_                                                   | -                  |                 |
+| **10** | **Sun, Jan 01, 2023** | **Demo 3: UI and user workflow**                                        | **-**              |**Online/Remote**|
+| 11     | Sun, Jan 08, 2023     | Going to production                                                     | Benny Powers       |Online/Remote    |
+| 12     | Sun, Jan 15, 2022     | AMA - Ask Me Anything, Software engineer in the industry                | _(all mentors)_    | RH office       |
+| **13** | **Sun, Jan 22, 2022** | **Final Demo: demo & retrospective**                                    | -                  |**Marganit BLDG**|
 
 ## Final Grade
 
