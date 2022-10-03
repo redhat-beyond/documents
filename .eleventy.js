@@ -5,7 +5,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addDataExtension('yaml', x => YAML.parse(x));
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('tutorial/**/*.{png,jpg,jpeg,svg}');
-
   eleventyConfig.addPlugin(RHDSPlugin);
 
   return {

@@ -35,9 +35,16 @@ module.exports = function(eleventyConfig) {
     console.log('  ...done');
   });
 
-  eleventyConfig.addPlugin(EleventySyntaxHighlightPlugin);
-  eleventyConfig.addPlugin(EleventyNavigationPagination);
-  eleventyConfig.addPlugin(EleventyRenderPlugin);
+  /** Load upstream plugins only if they aren't already loaded */
+  for (const upstreamPlugin of [
+    EleventySyntaxHighlightPlugin,
+    EleventyNavigationPagination,
+    EleventyRenderPlugin,
+  ]) {
+    if (eleventyConfig.plugins.every(({ plugin }) => plugin !== upstreamPlugin)) {
+      eleventyConfig.addPlugin(upstreamPlugin);
+    }
+  }
 
   eleventyConfig.addGlobalData('importMap', async function(configData) {
     const PFE_DEPS = [
