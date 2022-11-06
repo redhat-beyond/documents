@@ -277,8 +277,8 @@ __Note:__ The project used as a learning platform, it should not be
 | -      | Sun, Dec 25, 2022     | _(College is closed)_               | -              |          |
 | 11     | Sun, Jan 01, 2023     | _(Open slot)_                       |                |             |
 | **10** | **Sun, Jan 08, 2023** | **Demo 3: UI and user workflow**    | **-**              |**Online/Remote**|
-| 12     | Sun, Jan 15, 2022     | AMA - Ask Me Anything, Software engineer in the industry|_(all mentors)_| RH office|
-| **13** | **Sun, Jan 22, 2022** | **Final Demo: demo & retrospective**| -              |**Marganit BLDG**|
+| 12     | Sun, Jan 15, 2023     | AMA - Ask Me Anything, Software engineer in the industry|_(all mentors)_| RH office|
+| **13** | **Sun, Jan 22, 2023** | **Final Demo: demo & retrospective**| -              |**Margalit BLDG**|
 
 ## Final Grade
 
