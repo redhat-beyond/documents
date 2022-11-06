@@ -263,7 +263,7 @@ __Note:__ The project used as a learning platform, it should not be
 |        |                     | Project Architecture overview      | Barak Korren   |Tel Hai College|
 | **-**  | **Fri, Oct 28, 2022** | **First challenge submission date** | **_(Self work)_**  |          |
 | 2      | Sun, Oct 30, 2022     | Introduction to Python              | Barak Korren   |Online/Remote|
-|       |                       | Second challenge hand-off | Barak Korren   |          |
+|       |                       | Second challenge hand-off | Noam Finkelstein   |          |
 | **-**  | **Fri, Nov 04, 2022** | **Second challenge submission date**| **_(Self work)_**  |          |
 | 3      | Sun, Nov 06, 2022     | Databases, data model and the ORM   | Lior Noy       |Online/Remote|
 |        |                       | Project teams announcement          | Yftach Herzog  |          |
