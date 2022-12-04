@@ -172,7 +172,7 @@ you should take the time to think about how you perceive your own performance,
 how is that different from how the mentors see it and why. Take the opportunity
 to learn how to improve!
 
-### Demo 3 (January 1st 2023): Control logic and UI
+### Demo 3 (January 8th 2023): Control logic and UI
 
 The purpose of this demo is to review your ability to implement the application
 workflow and UI logic and implement automated tests for it.
