@@ -1,7 +1,6 @@
 # Red Hat Beyond 09
 
 Statement of Work (SOW)
-***
 
 ## Pre-requirements
 
@@ -25,6 +24,18 @@ them up. The more you know the easier it will be.
 * Data modeling
     * ERD - Entity Relationships Diagrams
     * DFD - Data Flow Diagram
+
+### System Requirements (student workstations)
+
+* Computer
+* 8 GB RAM
+* OS - Windows, OSX, Linux
+* Language - English (Username should be in English)
+* Installations:
+
+    * [Git](https://git-scm.com/downloads)
+    * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+    * [Vagrant](https://www.vagrantup.com/downloads.html)
 
 ## Milestones
 
@@ -263,27 +274,27 @@ unique or amazing. This could defeat learning process and goals.
 | #    | Date                | Topic(s)                           | Lecturer        | Location        |
 |------|---------------------|------------------------------------|-----------------|-----------------|
 |-     |Sun, Feb 19, 2023    |First challenge hand-off and student selection (30m pre-course session)|Barak Korren|Online/Remote|
-|**-** |**Fri, Mar 03, 2023**|**First challenge submission date** |**_(Self work)_**|                 |
+|**-** |**Fri, Mar 03, 2023**|**First challenge submission date** |**_(Self work)_**|-                |
 |1     |Sun, Mar 05, 2023    |General introduction                |Barak Korren     |MTA College      |
-|      |                     |Project Architecture overview       |Barak Korren     |MTA College      |
-|      |                     |Second challenge hand-off           |Barak Korren     |MTA College      |
-|**-** |**Fri, Mar 10, 2023**|**Second challenge submission date**|**_(Self work)_**|                 |
+|      |                     |Project Architecture overview       |Barak Korren     |                 |
+|      |                     |Second challenge hand-off           |Barak Korren     |                 |
+|**-** |**Fri, Mar 10, 2023**|**Second challenge submission date**|**_(Self work)_**|-                |
 |2     |Sun, Mar 12, 2023    |Introduction to Python              |Barak Korren     |Online/Remote    |
 |3     |Sun, Mar 19, 2023    |Databases, data model and the ORM   |Omer Amsalem     |Online/Remote    |
-|      |                     |Project teams announcement          |                 |                 |
+|      |                     |Project teams announcement          |Yftach Herzog    |                 |
 |**4** |**Sun, Mar 26, 2023**|**Demo 1: Development environment** |Barak            |Online/Remote    |
-|-     |Sun, Apr 02, 2023    |_(Passover - College is closed)_    |-                |                 |
-|-     |Sun, Apr 09, 2023    |_(Passover - College is closed)_    |-                |                 |
+|-     |Sun, Apr 02, 2023    |_(Passover - College is closed)_    |-                |-                |
+|-     |Sun, Apr 09, 2023    |_(Passover - College is closed)_    |-                |-                |
 |5     |Sun, Apr 16, 2023    |Business logic and Testing          |Eddy Haas        |Online/Remote    |
-|**6** |**Sun, Apr 23, 2023**|**Demo 2: Data Model and business logic**|**TBD**     |**Online/Remote**|
+|**6** |**Sun, Apr 23, 2023**|**Demo 2: Data Model and business logic**|**Noam Finkelstein**|**Online/Remote**|
 |-     |**Apr 24 - Apr 30**  |**Performance review week**         |**-**            |**-**            |
 |7     |Sun, Apr 30, 2023    |UI: Routes, Views and Templates     |Yariv Rachmani   |Online/Remote    |
 |8     |Sun, May 07, 2023    |Frontend (FE), Intro: FE tecnologies|Benny Powers     |Online/Remote    |
 |-     |Sun, May 14, 2023    |_(No session - RH offices closed)_  |-                |-                |
-|**9** |**Sun, May 21, 2023**|**Demo 3: UI and user workflow**    |**TBD**          |**Online/Remote**|
+|**9** |**Sun, May 21, 2023**|**Demo 3: UI and user workflow**    |**Sebastian Scheinkman**|**Online/Remote**|
 |10    |Sun, May 28, 2023    |Going to production                 |Benny Rochwerger |Online/Remote    |
 |11    |Sun, Jun 04, 2023    |AMA - Ask Me Anything, Being a software engineer in the industry|_(all mentors)_|RH office|
-|**12**|**Sun, Jun 11, 2023**|**Final Demo**                      | -               |**RH office**    |
+|**12**|**Sun, Jun 11, 2023**|**Final Demo**                      |**Daniel Keler** |**RH office**    |
 
 ## Final Grade
 
@@ -458,18 +469,6 @@ Slack, and well as subjective elements, bonus scores, decided and agreed upon by
        permissive [MIT license](https://opensource.org/licenses/MIT). We require
        that you keep this license for the Beyond project in order to facilitate
        sharing with other Beyond students and the Red Hat team.
-
-## System Requirements (student workstations)
-
-* Computer
-* 8 GB RAM
-* OS - Windows, OSX, Linux
-* Language - English (Username should be in English)
-* Installations:
-
-    * [Git](https://git-scm.com/downloads)
-    * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-    * [Vagrant](https://www.vagrantup.com/downloads.html)
 
 ## List of things you can do to improve communications with your instructors and teammates and your overall "visibility"
 
