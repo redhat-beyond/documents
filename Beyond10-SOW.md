@@ -47,9 +47,8 @@ with 4-6 students.
 Each team will have the following mentors:
 
 * Team 1: Yftach Herzog, Nimer Naamneh, Daniel Keler, Or Hochman, Paz Menachem (Student)
-* Team 2: Avi Biton, Omri Bar Haim, Victor Voronokov,, Orel Misan, Shalev Roimi (Student)
-* Team 3: Shay Vatarescu, Elyasaf Halle, Kasem Alem, Michael Menasherov
-* Team 4: N/A ATM
+* Team 2: Avi Biton, Omri Bar Haim, Victor Voronokov,Shalev Roimi (Student)
+* Team 3: Shay Vatarescu, Elyasaf Halle, Kasem Alem, Orel Misan
 
 ### Demo 1 (November 12th): Project selection and setting up a DEV environment
 
